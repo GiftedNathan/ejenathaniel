@@ -1,0 +1,22 @@
+.button{
+    margin-top: 40px;
+    padding: 15px 45px;
+    font-size: 1.2em;
+    color: var(--color-text-gray);
+    background-color: var(--color-bg-secondary-light);
+    background:linear-gradient(90deg, var(--color-bg-secondary) 0%, rgba(174, 103, 250, 0.692) 40%, rgba(255, 132, 113, 0.692) 100%);
+    border: 2px solid var(--color-text-tertiary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-out all;
+}
+.button:hover{
+    color: var(--color-text-gray);
+    background:linear-gradient(90deg, rgba(255, 132, 113, 0.692) 0%, rgba(174, 103, 250, 0.692) 40%, var(--color-bg-secondary) 100% );
+      
+}
+
+.button .fa, .button .fas, button .fab{
+    margin-left: 15px;
+}

@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav .nav-link{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    color: var(--color-text-white);
+    
+}
+.nav .nav-link:hover{
+    color: var(--color-text-gray);
+    background-color: var(--color-bg-secondary-light);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 928px) {
+    .nav{
+        display: none;
+    }
+}
