@@ -23,7 +23,12 @@ const Hero = ({name, designation, greeting}) => {
           strings: [
           'Frontend Developer',
           'Graphics Designer',
+          'Web Designer',
+          'Frontend Developer',
           'Good with ReactJs',
+          'Good with SCSS',
+          'Good with Wordpress',
+          'Clean codes',
         ],
         typeSpeed: 80,
         backSpeed: 80,
@@ -50,14 +55,14 @@ const Hero = ({name, designation, greeting}) => {
             <div className="hero-section-content">
                 <p>{greeting}</p>
                 <h1 className="">Work with <span  >{'<'}  {name} {'/>'} </span> </h1>
-                <img src={Logo}  className="hero-image" alt="hero-image" />
+                <img src={Logo}  className="hero-image" alt="hero" />
                 <div className="designation">
                   <span className="typed-cursor">[</span> 
                   <h3 ref={el}>{designation}</h3>
                 </div>
             </div>
 
-            <Button name={'Learn more'} icon={learnMoreIcon} />
+            <a href="#about"><Button name={'Learn more'} icon={learnMoreIcon} /></a>
 
             <Links />
         </section>

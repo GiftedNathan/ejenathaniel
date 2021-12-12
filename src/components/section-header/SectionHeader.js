@@ -3,7 +3,7 @@ import './sectionHeader.css'
 
 export const SectionHeader = ({title, subtitle, note, profileImage}) => {
     return (
-        <div className="section-header">
+        <div className="section-header roll-in-left">
             <h3 className="title ">#{title}</h3>
             <h2 className="subtitle text-gradient">{subtitle}</h2>
             <div className="">{profileImage}</div>

@@ -7,8 +7,6 @@ import Logo from '../../logo-nathan/logo-nath-white.png'
 
 
 
-
-
 const Header = ({logo}) => {
     const [showMenu, setShowMenu] = useState(true)
     const toggleMenu = () =>{ setShowMenu(!showMenu) }
@@ -16,12 +14,12 @@ const Header = ({logo}) => {
     const menu = (
         <nav className="menu">
             <a className="nav-link active" href="/">Home</a>
-            <a className="nav-link" href="/about">about</a>
-            <a className="nav-link" href="/resume">resume</a>
-            <a className="nav-link" href="/portfolio">portfolio</a>
-            <a className="nav-link" href="services">services</a>
-            <a className="nav-link disabled" href="blog">blog</a>
-            <a className="nav-link" href="contact">contact</a>
+            <a className="nav-link" href="#about">about</a>
+            <a className="nav-link" href="#resume">resume</a>
+            <a className="nav-link" href="#portfolio">portfolio</a>
+            <a className="nav-link" href="#services">services</a>
+            <a className="nav-link disabled" href="#blog">blog</a>
+            <a className="nav-link" href="#contact">contact</a>
         </nav>
         
     )

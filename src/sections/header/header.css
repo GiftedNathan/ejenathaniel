@@ -36,7 +36,7 @@
     height: 2px;
     background-color: var(--color-text-gray);
     top: 2px;
-    left: 2px;
+    left: 0px;
 }
 .menu-icon::after{
     position: absolute;
@@ -45,7 +45,7 @@
     height: 2px;
     background-color: var(--color-text-gray);
     bottom: 0px;
-    right: 2px;
+    right: 0px;
 }
 
 .menu{

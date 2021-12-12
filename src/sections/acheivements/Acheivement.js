@@ -1,6 +1,6 @@
 import './acheivement.css'
 
-import { FaClock, FaLightbulb } from 'react-icons/fa'
+// import { FaClock, FaLightbulb } from 'react-icons/fa'
 
 const Ideas = () => {
     return (

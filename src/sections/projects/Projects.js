@@ -25,7 +25,8 @@ const Projects = ({title, subtitle, note}) => {
                         I built this current version of portfolio
                         with ReactJs, while the previous with HTML CSS and JavaScript. 
                     </p>
-                    <Button name={'Check it out'}/>
+                    <a href="https://ejenathaniel.netlify.app/" >
+                    <Button name={'Check it out'}/></a>
                 </div>
                 <div className="project">
                     <h3 className="project-title">

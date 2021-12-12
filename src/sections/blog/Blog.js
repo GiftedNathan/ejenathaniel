@@ -6,7 +6,7 @@ const Blog = ({title, subtitle, note}) => {
     return (
         <div id="blog" className="blog-section bg-gradient-open">
             <SectionHeader title={title} subtitle={subtitle} note={note} />
-            <Button name={'Subscrip to for letest info!'} />
+            <Button name={'Subscribe for letest info!'} />
         </div>
     )
 }

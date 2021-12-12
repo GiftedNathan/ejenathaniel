@@ -1,9 +1,9 @@
-import Button from '../../components/button/Button'
+// import Button from '../../components/button/Button'
 import { SectionHeader } from '../../components/section-header/SectionHeader'
 import Skill from '../../components/skill/Skill'
 import './about.css'
 import '../../fontawesome/css/all.min.css'
-import { FcBusinessman, FcCalendar, FcBriefcase, FcWebcam, FcDownload, FcManager, FcSettings } from 'react-icons/fc'
+import { FcBusinessman, FcCalendar, FcBriefcase, FcWebcam, FcDownload, FcManager } from 'react-icons/fc'
 import { MdMail } from 'react-icons/md'
 import { FaHandshake, FaScrewdriver } from 'react-icons/fa'
 
@@ -17,7 +17,7 @@ const About = ({title, subtitle, note, profile, skills}) => {
         <section className="about-section " id="about">
             
             <SectionHeader title={title} subtitle={subtitle} note={note} profileImage={profileImage} />
-            <div className="about-row">
+            <div className="about-row tilt-in-fwd-tr">
                 {/* the profile  */}
                 <div className="profile">
                     <h3 className="title-1">profile <FcManager className="fa-male"/></h3>
@@ -51,11 +51,11 @@ const About = ({title, subtitle, note, profile, skills}) => {
                 <div className="seperator"></div>
 
                 {/* the skills */}
-                <div className="skills">
+                <div className="skills tilt-in-fwd-tr">
                     <h3 className="title-1">skills <FaScrewdriver className="Fa-screwdriver"/></h3>
                     <p className="text">{skills}</p>
                     <div className="skills-content">
-                        <Skill skillName={'HTML'} skillPercentage={34} />
+                        <Skill skillName={'HTML'} skillPercentage={79} />
                         <Skill skillName={'CSS'} skillPercentage={70} />
                         <Skill skillName={'SCSS'} skillPercentage={64} />
                         <Skill skillName={'JavaScript'} skillPercentage={52} />
@@ -69,9 +69,8 @@ const About = ({title, subtitle, note, profile, skills}) => {
             </div>
             
             <div className="about-buttons">
-                <Button name={'Curiculum Vitae'} icon={downloadIcon}/>
-                <Button name={'Hire me'} icon={hireMeIcon}/>
-                
+                <a href="../../cv/Eje-Nathaniel-CV-Software-Developer-v1.pdf" className="button float" download >Curiculum Vitae {downloadIcon}</a>
+                <a href="#contact" className="button float">Hire me {hireMeIcon}</a>
             </div>
         </section>
     )

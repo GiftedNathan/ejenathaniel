@@ -1,6 +1,6 @@
 import { SectionHeader } from '../../components/section-header/SectionHeader'
 import './services.css'
-import {FaCode} from 'react-icons/fa'
+// import {FaCode} from 'react-icons/fa'
 
 const Services = ({title, subtitle, note}) => {
     return (

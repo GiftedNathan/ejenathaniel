@@ -2,6 +2,7 @@
     margin-top: 40px;
     padding: 15px 45px;
     font-size: 1.2em;
+    text-align: center;
     color: var(--color-text-gray);
     background-color: var(--color-bg-secondary-light);
     background:linear-gradient(90deg, var(--color-bg-secondary) 0%, rgba(174, 103, 250, 0.692) 40%, rgba(255, 132, 113, 0.692) 100%);
