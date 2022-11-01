@@ -18,6 +18,7 @@
     line-height: 3em;
     letter-spacing: 5px;
     color: var(--color-bg-primary);
+    color: var(--color-bg-secondary-light);
 }
 .hero-section-content h1{
     font-size: 38px;
