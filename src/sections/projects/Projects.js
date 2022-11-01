@@ -9,34 +9,72 @@ const Projects = ({title, subtitle, note}) => {
             <div className="project-container">
                 <div className="project">
                     <h3 className="project-title">
-                        Weather App
+                        Easyrecipe
                     </h3>
                     <p className="project-text">
-                        An application that forecast the 
-                        current weather for any city in the world.
+                        A simple recipe app that fetches a list of all 
+                        recipes from external API and provide dynamic 
+                        search functionality.
                     </p>
-                    <Button name={'Check it out'}/>
+                    <p className="project-technology">
+                        <span>Concepts Used:</span> React router dom, React Hooks, components, props, useState(), 
+                        useEffect() with managing dependencies, handling HTML input in React. 
+                        Fetch API, JS Promises, and callback. React Styled Components; styling with flexbox and grid.
+                    </p>
+                    <a href='https://easyrecipee.netlify.app/' target='_blank' >
+                        <Button name={'Check it out'} />
+                    </a>
                 </div>
                 <div className="project">
                     <h3 className="project-title">
                         My Portfolio 
                     </h3>
                     <p className="project-text">
-                        I built this current version of portfolio
-                        with ReactJs, while the previous with HTML CSS and JavaScript. 
+                        This is fully responsive portfolio website using react with multiple sections. 
+                        It has various animations and support mobile, desktop, and tablet screen sizes.
+                    </p>
+                    <p className="project-technology">
+                        <span>Concepts Used:</span> React Icons, React Hooks, components, 
+                        props, useState(), react-router. TypedJS for some animations.
+                         CSS styling with flexbox, variables, animations and many more. 
                     </p>
                     <a href="https://ejenathaniel.netlify.app/" >
-                    <Button name={'Check it out'}/></a>
+                        <Button name={'Check it out'}/>
+                    </a>
                 </div>
                 <div className="project">
                     <h3 className="project-title">
-                        Easy Baby
+                        Translator 
                     </h3>
                     <p className="project-text">
-                        Help determine the sex, genotype, blood group and
-                        EDT of a baby + women's most fertile periods.
+                        A simple language translator with text-to-voice and copy functionality. 
                     </p>
-                    <Button name={'Check it out'}/>
+                    <p className="project-technology">
+                        <span>Concepts Used:</span> The Memory API was used to build the tranlation functionality.
+                        The web speech API in JavaScript was used to tranplate the text to speech.
+                        Tha Asynchronous clipboard API was used to build the copy funtionality.
+                        CSS styling with flexbox and many more. 
+                    </p>
+                    <a href="https://giftednathan.github.io/translator" target='_blank'>
+                        <Button name={'Check it out'}/>
+                    </a>
+                </div>
+                <div className="project">
+                    <h3 className="project-title">
+                        Animated Weather icons
+                    </h3>
+                    <p className="project-text">
+                        An animated weather icons for the various weather conditions. 
+                        It is built with HTML AND CSS.
+                    </p>
+                    
+                    <p className="project-technology">
+                        <span>Concepts Used:</span> HTML and CSS styling with flexbox, variables, 
+                        keyfram animations and many more. 
+                    </p>
+                    <a href='https://giftednathan.github.io/animated-weather-icons' target='_blank' >
+                        <Button name={'Check it out'} />
+                    </a>
                 </div>
                 <div className="project">
                     <h3 className="project-title">
@@ -44,9 +82,17 @@ const Projects = ({title, subtitle, note}) => {
                     </h3>
                     <p className="project-text">
                         Trust me, i have more project 
-                        that currently aren't showcased here. 
+                        that currently aren't showcased here. Hit the button 
+                        below to view my github repositories.
                     </p>
-                    <Button name={'Check it out'}/>
+                    <p className="project-technology">
+                        <span>Different projects built with:</span> ReactJs (React router dom, React Hooks, components, props, useState(), 
+                        useEffect() React Styled components) Javascrips, SCSS, APIs
+                         and many more. 
+                    </p>
+                    <a href='https://www.github.com/giftednathan' target='_blank' >
+                        <Button name={'More on GitHub'} />
+                    </a>
                 </div>
             </div>
         
