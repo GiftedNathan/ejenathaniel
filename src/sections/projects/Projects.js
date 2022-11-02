@@ -21,7 +21,7 @@ const Projects = ({title, subtitle, note}) => {
                         useEffect() with managing dependencies, handling HTML input in React. 
                         Fetch API, JS Promises, and callback. React Styled Components; styling with flexbox and grid.
                     </p>
-                    <a href='https://easyrecipee.netlify.app/' target='_blank' >
+                    <a href='https://easyrecipee.netlify.app/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
@@ -38,7 +38,7 @@ const Projects = ({title, subtitle, note}) => {
                         props, useState(), react-router. TypedJS for some animations.
                          CSS styling with flexbox, variables, animations and many more. 
                     </p>
-                    <a href="https://ejenathaniel.netlify.app/" >
+                    <a href="https://ejenathaniel.netlify.app/" rel="noreferrer">
                         <Button name={'Check it out'}/>
                     </a>
                 </div>
@@ -55,7 +55,7 @@ const Projects = ({title, subtitle, note}) => {
                         Tha Asynchronous clipboard API was used to build the copy funtionality.
                         CSS styling with flexbox and many more. 
                     </p>
-                    <a href="https://giftednathan.github.io/translator" target='_blank'>
+                    <a href="https://giftednathan.github.io/translator" target='_blank' rel="noreferrer">
                         <Button name={'Check it out'}/>
                     </a>
                 </div>
@@ -72,7 +72,7 @@ const Projects = ({title, subtitle, note}) => {
                         <span>Concepts Used:</span> HTML and CSS styling with flexbox, variables, 
                         keyfram animations and many more. 
                     </p>
-                    <a href='https://giftednathan.github.io/animated-weather-icons' target='_blank' >
+                    <a href='https://giftednathan.github.io/animated-weather-icons' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
@@ -90,7 +90,7 @@ const Projects = ({title, subtitle, note}) => {
                         useEffect() React Styled components) Javascrips, SCSS, APIs
                          and many more. 
                     </p>
-                    <a href='https://www.github.com/giftednathan' target='_blank' >
+                    <a href='https://www.github.com/giftednathan' target='_blank' rel="noreferrer">
                         <Button name={'More on GitHub'} />
                     </a>
                 </div>

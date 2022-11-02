@@ -1,5 +1,5 @@
 import './links.css'
-import { FaTwitter, FaFacebook, FaLinkedin, FaYoutube, FaWhatsapp, FaGithub } from 'react-icons/fa'
+import { FaTwitter, FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 
 export const Links = () => {
