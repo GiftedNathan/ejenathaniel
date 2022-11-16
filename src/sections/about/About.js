@@ -56,7 +56,7 @@ const About = ({title, subtitle, note, profile, skills}) => {
                     <p className="text">{skills}</p>
                     <div className="skills-content">
                         <Skill skillName={'HTML'} skillPercentage={79} />
-                        <Skill skillName={'CSS'} skillPercentage={70} />
+                        <Skill skillName={'CSS'} skillPercentage={87} />
                         <Skill skillName={'SCSS'} skillPercentage={64} />
                         <Skill skillName={'JavaScript'} skillPercentage={52} />
                         <Skill skillName={'ReatJs'} skillPercentage={75} />
@@ -79,9 +79,9 @@ const About = ({title, subtitle, note, profile, skills}) => {
 About.defaultProps = {
     title: 'about',
     subtitle: 'Let me introduce myself',
-    note: 'I am a web developer and a full blown graphics designer. I am passionate about web design, development and interaction. I can design and build with HTML, CSS, SCSS , Javascript, ReactJs, php, Wordpress, Bootstrap and a lttle laravel. I really love what I do.',
+    note: 'I am a software developer and a full blown graphics designer. I am passionate about web design, development and interaction. I can design and build with HTML, CSS, SCSS , Javascript, ReactJs, php, Wordpress, Bootstrap and a lttle laravel. I really love what I do.',
     profile: 'An enthusiastic, organized, and reliable individual. A graduate of computer science, with strong and diverse background in software development, programming, computer architecture, operation system, data structures and high honors in undergraduate studies, plus excellent communication and time management skills. ',
-    skills: 'I am go at using HTML, CSS, SCSS, PHP, JavaScript, ReactJs, Wordpress, Bootstrap, laravel and Corel Draw. For instance, I built this version of portfolio with ReactJs and the previous versions from scratch with pure HTML5, CSS3, and JavaScript.',
+    skills: 'I am good at using HTML, CSS, SCSS, PHP, JavaScript, ReactJs (React router dom, React Styled Components, React Hooks, components, props, useState(), useEffect() etc), Wordpress, Bootstrap, laravel and Corel Draw. For instance, I built this version of portfolio with ReactJs and the previous versions from scratch with pure HTML5, CSS3, and JavaScript.',
 
 }
 

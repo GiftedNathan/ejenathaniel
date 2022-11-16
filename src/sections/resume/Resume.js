@@ -53,7 +53,7 @@ const Resume = ({title, subtitle, note}) => {
                         <p className="item-date">July 2015 - July 2019 </p>
                     </div>
                     <div className="item-content">
-                        <h3 className="item-title">Joseph Terka University</h3>
+                        <h3 className="item-title">University of Agriculture, Makurdi</h3>
                         <p className="item-text">
                             Modules covered included Artificial Intelligence, 
                             Data Structures and Algorithms, Logic and Computation, 
