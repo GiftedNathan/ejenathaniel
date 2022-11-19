@@ -12,7 +12,7 @@ const Contact = ({title, subtitle, note}) => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_7axo4gb', 'template_z9szsgr', e.target, 'user_iec6KP9eYzC2iFC5C4j4K')
+      emailjs.sendForm('service_7axo4gb', 'template_z9szsgr', form.current, 'user_iec6KP9eYzC2iFC5C4j4K')
         .then((result) => {
             // console.log(result.text);
             alert("Thank you for contacting Eje Nathaniel, He will respond sooner than you expect.");
