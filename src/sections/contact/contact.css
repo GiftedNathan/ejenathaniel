@@ -26,15 +26,26 @@
     border-radius: 10px;
     border-bottom: 1px solid var(--color-purple);
 }
+.email{
+    text-transform: lowercase;
+}
 .name:focus, .email:focus, .subject:focus, .message:focus{
     
     background-color: var(--color-bg-secondary);
     padding: 15px 15px;
-    font-size: .8em;
+    font-size: 1em;
+    /* font-weight: 100; */
     letter-spacing: 1px;
-    color: var(--color-text-primary);
+    color: var(--color-text-gray);
     border-bottom: 1px solid var(--color-red);
     transition: .5s ease-in all;
+}
+.error{
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: var(--color-text-secondary);
+    margin-left: 15px;
 }
 
 
