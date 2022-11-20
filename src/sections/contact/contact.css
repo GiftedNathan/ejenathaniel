@@ -41,7 +41,7 @@
     transition: .5s ease-in all;
 }
 .error{
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 100;
     letter-spacing: 5px;
     color: var(--color-text-secondary);
