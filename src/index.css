@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-:root{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+:root {
   --color-bg-primary: #040c18;
   --color-bg-secondary: #031b34;
   --color-bg-secondary-light: #042c54;
@@ -16,68 +16,115 @@
   --color-purple: #81afdd;
 }
 
-.bg-gradient-open{
+.bg-gradient-open {
   /* ff 3.6+ */
-  background:-moz-radial-gradient(circle at 15% 20%, rgba(4, 12, 24, 1) 0%, rgba(3, 27, 52, 1) 100%);
+  background: -moz-radial-gradient(
+    circle at 15% 20%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(3, 27, 52, 1) 100%
+  );
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 15% 20%, rgba(4, 12, 24, 1) 0%, rgba(3, 27, 52, 1) 100%);
+  background: -webkit-radial-gradient(
+    circle at 15% 20%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(3, 27, 52, 1) 100%
+  );
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 15% 20%, rgba(4, 12, 24, 1) 0%, rgba(3, 27, 52, 1) 100%);
+  background: -o-radial-gradient(
+    circle at 15% 20%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(3, 27, 52, 1) 100%
+  );
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 15% 20%, rgba(4, 12, 24, 1) 0%, rgba(3, 27, 52, 1) 100%);
+  background: -ms-radial-gradient(
+    circle at 15% 20%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(3, 27, 52, 1) 100%
+  );
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 15% 20%, rgba(4, 12, 24, 1) 0%, rgba(3, 27, 52, 1) 100%);
-
+  background: radial-gradient(
+    circle at 15% 20%,
+    rgba(4, 12, 24, 1) 0%,
+    rgba(3, 27, 52, 1) 100%
+  );
 }
 
-.bg-gradient-close{
+.bg-gradient-close {
   /* ff 3.6+ */
-  background:-moz-radial-gradient(circle at 15% 20%, rgba(3, 27, 52, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -moz-radial-gradient(
+    circle at 15% 20%,
+    rgba(3, 27, 52, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 15% 20%, rgba(3, 27, 52, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -webkit-radial-gradient(
+    circle at 15% 20%,
+    rgba(3, 27, 52, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 15% 20%, rgba(3, 27, 52, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -o-radial-gradient(
+    circle at 15% 20%,
+    rgba(3, 27, 52, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 15% 20%, rgba(3, 27, 52, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -ms-radial-gradient(
+    circle at 15% 20%,
+    rgba(3, 27, 52, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 15% 20%, rgba(3, 27, 52, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: radial-gradient(
+    circle at 15% 20%,
+    rgba(3, 27, 52, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
 }
 
-.text-gradient{
-  
+.text-gradient {
   /* global 94%+ browsers support */
-  background:linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(255, 132, 113, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(174, 103, 250, 1) 0%,
+    rgba(255, 132, 113, 1) 100%
+  );
   background-clip: text;
   color: transparent;
-
 }
 
 /* animations */
 
 /* float  */
-.float {  
+.float {
   animation-name: ani-float;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; 
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes ani-float {
-  0% { transform: translate(0,  0px); }
-  50% { transform: translate(0, 15px); }
-  100% { transform: translate(0, -0px); }    
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 /* rotation  */
-.rotate {  
+.rotate {
   animation-name: ani-rotate;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -88,43 +135,45 @@
 }
 
 @keyframes ani-rotate {
-  0%{ transform: rotate(0); }
-  100%{ transform: rotate(360deg); }  
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
-
 
 /**
  * ----------------------------------------
  * animation roll-in-left
  * ----------------------------------------
  */
- .roll-in-left {
-    -webkit-animation: roll-in-left 0.6s ease-out both;
-    animation: roll-in-left 0.6s ease-out both;
-  }
+.roll-in-left {
+  -webkit-animation: roll-in-left 0.6s ease-out both;
+  animation: roll-in-left 0.6s ease-out both;
+}
 
- @-webkit-keyframes roll-in-left {
+@-webkit-keyframes roll-in-left {
   0% {
     -webkit-transform: translateX(-800px) rotate(-540deg);
-            transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-800px) rotate(-540deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
     opacity: 1;
   }
 }
 @keyframes roll-in-left {
   0% {
     -webkit-transform: translateX(-800px) rotate(-540deg);
-            transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-800px) rotate(-540deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
     opacity: 1;
   }
 }
@@ -134,44 +183,49 @@
  * animation tilt-in-fwd-tr
  * ----------------------------------------
  */
- .tilt-in-fwd-tr {
-	  -webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	  animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  }
- @-webkit-keyframes tilt-in-fwd-tr {
+.tilt-in-fwd-tr {
+  -webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes tilt-in-fwd-tr {
   0% {
-    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-            transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px)
+      skew(-35deg, 10deg);
+    transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px)
+      skew(-35deg, 10deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-            transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+    transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 @keyframes tilt-in-fwd-tr {
   0% {
-    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
-            transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px)
+      skew(-35deg, 10deg);
+    transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px)
+      skew(-35deg, 10deg);
     opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-            transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+    transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
     opacity: 1;
   }
 }
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Consolas, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "poppins";
   font-size: 16px;
 }
-a{
+a {
   color: unset;
   text-decoration: none;
 }
