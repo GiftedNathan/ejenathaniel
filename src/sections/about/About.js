@@ -8,19 +8,19 @@ import { MdMail } from 'react-icons/md'
 import { FaHandshake, FaScrewdriver } from 'react-icons/fa'
 
 
-const About = ({title, subtitle, note, profile, skills}) => {
+const About = ({ title, subtitle, note, profile, skills }) => {
     const profileImage = <div className="profile-image "></div>
-    const downloadIcon = <FcDownload className="button-icon"/>
-    const hireMeIcon = <FaHandshake className="button-icon"/>
+    const downloadIcon = <FcDownload className="button-icon" />
+    const hireMeIcon = <FaHandshake className="button-icon" />
 
     return (
         <section className="about-section " id="about">
-            
+
             <SectionHeader title={title} subtitle={subtitle} note={note} profileImage={profileImage} />
             <div className="about-row tilt-in-fwd-tr">
                 {/* the profile  */}
                 <div className="profile">
-                    <h3 className="title-1">profile <FcManager className="fa-male"/></h3>
+                    <h3 className="title-1">profile <FcManager className="fa-male" /></h3>
                     <p className="text">{profile}</p>
                     <div className="profile-content">
                         <div className="profile-item">
@@ -33,7 +33,7 @@ const About = ({title, subtitle, note, profile, skills}) => {
                         </div>
                         <div className="profile-item">
                             <h4> <FcBriefcase /> job description</h4>
-                            <p>web developer / graphics designer</p>
+                            <p>web developer / designer</p>
                         </div>
                         <div className="profile-item web">
                             <h4><MdMail /> email</h4>
@@ -41,10 +41,11 @@ const About = ({title, subtitle, note, profile, skills}) => {
                         </div>
                         <div className="profile-item web">
                             <h4><FcWebcam /> website</h4>
-                            <p>www.nathaniel.eu5.org</p>
+                            <p><a href='https://ejenathaniel.netlify.app/' rel="noreferrer">www.ejenathaniel.netlify.app</a></p>
+
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
 
@@ -52,22 +53,23 @@ const About = ({title, subtitle, note, profile, skills}) => {
 
                 {/* the skills */}
                 <div className="skills tilt-in-fwd-tr">
-                    <h3 className="title-1">skills <FaScrewdriver className="Fa-screwdriver"/></h3>
+                    <h3 className="title-1">skills <FaScrewdriver className="Fa-screwdriver" /></h3>
                     <p className="text">{skills}</p>
                     <div className="skills-content">
+                        <Skill skillName={'WordPress'} skillPercentage={80} />
                         <Skill skillName={'HTML'} skillPercentage={79} />
                         <Skill skillName={'CSS'} skillPercentage={87} />
                         <Skill skillName={'SCSS'} skillPercentage={64} />
-                        <Skill skillName={'JavaScript'} skillPercentage={52} />
-                        <Skill skillName={'ReatJs'} skillPercentage={75} />
+                        <Skill skillName={'JavaScript'} skillPercentage={72} />
                         <Skill skillName={'Bootstrap'} skillPercentage={70} />
-                        <Skill skillName={'WordPress'} skillPercentage={80} />
-                        
+                        <Skill skillName={'ReatJs'} skillPercentage={75} />
+                        <Skill skillName={'Reat Native'} skillPercentage={51} />
+
                     </div>
                 </div>
 
             </div>
-            
+
             <div className="about-buttons">
                 <a href="../../cv/Eje-Nathaniel-CV-Software-Developer-v1.pdf" className="button float" download >Curiculum Vitae {downloadIcon}</a>
                 <a href="#contact" className="button float">Hire me {hireMeIcon}</a>
@@ -79,9 +81,9 @@ const About = ({title, subtitle, note, profile, skills}) => {
 About.defaultProps = {
     title: 'about',
     subtitle: 'Let me introduce myself',
-    note: 'I am a software developer and a full blown graphics designer. I am passionate about web design, development and interaction. I can design and build with HTML, CSS, SCSS , Javascript, ReactJs, php, Wordpress, Bootstrap and a lttle laravel. I really love what I do.',
-    profile: 'An enthusiastic, organized, and reliable individual. A graduate of computer science, with strong and diverse background in software development, programming, computer architecture, operation system, data structures and high honors in undergraduate studies, plus excellent communication and time management skills. ',
-    skills: 'I am good at using HTML, CSS, SCSS, PHP, JavaScript, ReactJs (React router dom, React Styled Components, React Hooks, components, props, useState(), useEffect() etc), Wordpress, Bootstrap, laravel and Corel Draw. For instance, I built this version of portfolio with ReactJs and the previous versions from scratch with pure HTML5, CSS3, and JavaScript.',
+    note: 'A software developer passionate about web design, development and interaction. An enthusiastic, organized, and dependable employee looking for a new role where I can utilize my skillset while also learning and growing in experience.',
+    profile: 'A graduate of computer science, with strong and diverse background in software development, programming, computer architecture, operation system, data structures and high honors in undergraduate studies, plus excellent communication and time management skills. ',
+    skills: 'I am proficient in WordPress, JavaScript, PHP, ReactJs (React router dom, React Styled Components, React Hooks, components, props, useState(), useEffect() etc), React Native, Bootstrap, CodeIgniter, and Laravel design and development.',
 
 }
 

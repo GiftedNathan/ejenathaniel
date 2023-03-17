@@ -1,123 +1,121 @@
-.about-section{
-    width: 100%;
-    padding: 100px 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.about-section {
+  width: 100%;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.title-1{
-    font-size: 1.5em;
-    line-height: 3em;
-    letter-spacing: 5px;
-    color: var(--color-text-gray);
+.title-1 {
+  font-size: 1.5em;
+  line-height: 3em;
+  letter-spacing: 5px;
+  color: var(--color-text-gray);
 }
-.text{
-    font-size: 1em;
-    line-height: 2em;
-    color: var(--color-text-gray);
-}
-
-.about-row{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 30px 0px;
+.text {
+  font-size: 1em;
+  line-height: 2em;
+  color: var(--color-text-gray);
 }
 
-.profile{
-    flex: 1;
-    max-width: 500px;
-    
+.about-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+
+.profile {
+  flex: 1;
+  max-width: 500px;
 }
 .profile-image {
-    width: 150px;
-    height: 150px;
-    background-image: url(../../logo-nathan/profile-image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    border: 1px solid var(--color-text-gray);
-    margin: 30px auto;
+  width: 150px;
+  height: 150px;
+  background-image: url(../../logo-nathan/profile-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 1px solid var(--color-text-gray);
+  margin: 30px auto;
 }
-.profile-content{
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0px;
-    color: var(--color-text-gray);
-}
-
-.profile-item{
-    margin: 15px 0px;
-    text-transform: capitalize;
-}
-.profile-item h4{
-    font-size: 1.2em;
-    line-height: 1.8em;
-}
-.profile-item p{
-    font-size: 1em;
-}
-.web p, .email p{
-    text-transform: lowercase;
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  color: var(--color-text-gray);
 }
 
-.seperator{
-    margin: 20px;
+.profile-item {
+  margin: 15px 0px;
+  text-transform: capitalize;
+}
+.profile-item h4 {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+.profile-item p {
+  font-size: 1em;
+}
+.web p,
+.email p {
+  text-transform: lowercase;
 }
 
-.skills{
-    flex: 1;
-    max-width: 500px;
-}
-.skills-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0px;
-    /* background-color: var(--color-bg-secondary); */
+.seperator {
+  margin: 20px;
 }
 
-.about-buttons{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+.skills {
+  flex: 1;
+  max-width: 500px;
+}
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  /* background-color: var(--color-bg-secondary); */
+}
+
+.about-buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .about-buttons > * {
-    margin: 20px;
-    width: 300px;
+  margin: 20px;
+  width: 300px;
 }
-.fa-male, .fa-screwdriver {
-    font-size: 1.5em
+.fa-male,
+.fa-screwdriver {
+  font-size: 1.5em;
 }
-.button-icon{
-    margin-left: 15px;
-    margin-bottom: -3px;
+.button-icon {
+  margin-left: 15px;
+  margin-bottom: -3px;
 }
-
 
 /* styling for other devices  */
 @media screen and (max-width: 768px) {
-    .about-section{
-        padding: 100px 60px;
-    }
-    .about-row{
-        flex-direction: column;
-    }
+  .about-section {
+    padding: 100px 60px;
+  }
+  .about-row {
+    flex-direction: column;
+  }
 
-    .seperator{
-        display: none;
-    }
+  .seperator {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .about-section{
-        padding: 60px 30px;
-    }
-    
+  .about-section {
+    padding: 60px 15px;
+  }
 }
