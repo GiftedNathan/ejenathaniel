@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-section">
             <div className="footer-container">
                 <div className="footer-item">
-                    <FaSearchLocation className="footer-icon"/>
+                    <FaSearchLocation className="footer-icon" />
                     <p className="footer-title">
                         where to find me
                     </p>
@@ -18,17 +18,17 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="footer-item">
-                    <FaEnvelope className="footer-icon"/>
+                    <FaEnvelope className="footer-icon" />
                     <p className="footer-title">
                         email me at
                     </p>
                     <p className="footer-text footer-email">
-                        eje.nathaniel@gmail.com 
+                        eje.nathaniel@gmail.com
                         eje.nathaniel@yahoo.com
                     </p>
                 </div>
                 <div className="footer-item">
-                    <FaPhone className="footer-icon"/>
+                    <FaPhone className="footer-icon" />
                     <p className="footer-title">
                         call me at
                     </p>
@@ -41,8 +41,8 @@ const Footer = () => {
             <Links />
 
             <p className="copy-right">
-                &copy; Eje Nathaniel 2021 
-                Design with much love: Inpiration from Stylshout
+                &copy; Eje Nathaniel 2023
+                - Built with much love.
             </p>
 
         </div>
