@@ -1,6 +1,7 @@
 import './App.css';
 import 'animate.css';
-import './fontawesome/css/all.css'
+import './fontawesome/css/all.css';
+import { FaWhatsapp } from 'react-icons/fa';
 
 // importing all the sections from the sections folder 
 import Header from './sections/header/Header';
@@ -29,6 +30,9 @@ const App = () => {
       <Ideas />
       <Contact />
       <Footer />
+      <a href="https://wa.me/2348103872283" className='whatsapp-icon-container'>
+        <FaWhatsapp className='whatsapp-icon' />
+      </a>
     </div>
   )
 }
