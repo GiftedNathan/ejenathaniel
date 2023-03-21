@@ -1,15 +1,44 @@
-*{
-    font-family: Poppins, 'Montserrat Alternates', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+* {
+  font-family: Poppins, "Montserrat Alternates", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
-body{
-    scroll-behavior: smooth;
+body {
+  scroll-behavior: smooth;
 }
-.container{
-    width: 100%;
-    height: 100%;
-    background-color: var(--color-bg-primary);
-    
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-primary);
 }
+.whatsapp-icon-container {
+  position: fixed;
+  width: 2.5em;
+  height: 2.5em;
+  bottom: 7%;
+  right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text-gray);
+  background: linear-gradient(
+    90deg,
+    var(--color-bg-secondary) 0%,
+    rgba(174, 103, 250, 0.692) 40%,
+    rgba(255, 132, 113, 0.692) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 132, 113, 0.692) 0%,
+    rgba(174, 103, 250, 0.692) 40%,
+    var(--color-bg-secondary) 100%
+  );
+  border-radius: 3em;
+  z-index: 5;
+}
+.whatsapp-icon {
+  font-size: 3em;
+  color: var(--color-text-gray);
 
+  cursor: pointer;
+}
