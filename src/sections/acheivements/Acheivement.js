@@ -17,17 +17,17 @@ const Ideas = () => {
             </div>
             <div className="acheivement">
                 <i className="fas fa-project-diagram "></i>
-                <h3 className="acheivement-figue">15</h3>
+                <h3 className="acheivement-figue">31</h3>
                 <p className="acheivement-text">projects</p>
             </div>
             <div className="acheivement">
                 <i className="fas fa-people-carry "></i>
-                <h3 className="acheivement-figue">4</h3>
+                <h3 className="acheivement-figue">24</h3>
                 <p className="acheivement-text">clients</p>
             </div>
             <div className="acheivement">
                 <i className="fas fa-chalkboard-teacher "></i>
-                <h3 className="acheivement-figue">24</h3>
+                <h3 className="acheivement-figue">224</h3>
                 <p className="acheivement-text">tutorials</p>
             </div>
         </div>

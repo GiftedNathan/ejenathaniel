@@ -2,9 +2,9 @@ import { SectionHeader } from '../../components/section-header/SectionHeader'
 import './services.css'
 // import {FaCode} from 'react-icons/fa'
 
-const Services = ({title, subtitle, note}) => {
+const Services = ({ title, subtitle, note }) => {
     return (
-        <div id="services" className="services-section">
+        <div id="services" className="services-section bg-gradient-open">
             <SectionHeader title={title} subtitle={subtitle} note={note} />
             <div className="services-container">
                 <div className="service">
@@ -20,7 +20,7 @@ const Services = ({title, subtitle, note}) => {
                     <i className="fas fa-chalkboard-teacher service-icon" aria-hidden="true"></i>
                     <h3 className="service-name">tutorials</h3>
                     <p className="service-text">
-                        You can acquire the necessary skills at no cost, 
+                        You can acquire the necessary skills at no cost,
                         imparting them is indeed a hubby
                     </p>
                 </div>
@@ -28,7 +28,7 @@ const Services = ({title, subtitle, note}) => {
                     <i className="fas fa-building service-icon" aria-hidden="true"></i>
                     <h3 className="service-name">design</h3>
                     <p className="service-text">
-                        A plan for the structure and functions of your system, 
+                        A plan for the structure and functions of your system,
                         giving it shape and appearance
                     </p>
                 </div>
@@ -36,7 +36,7 @@ const Services = ({title, subtitle, note}) => {
                     <i className="fas fa-hands-helping service-icon" aria-hidden="true"></i>
                     <h3 className="service-name">support</h3>
                     <p className="service-text">
-                        Your Application or System don't have to fall or fail. Analytics, Reports and 
+                        Your Application or System don't have to fall or fail. Analytics, Reports and
                         Recommendations to further improve performance
                     </p>
                 </div>
@@ -44,7 +44,7 @@ const Services = ({title, subtitle, note}) => {
                     <i className="fas fa-file-archive service-icon" aria-hidden="true"></i>
                     <h3 className="service-name">analysis</h3>
                     <p className="service-text">
-                        Decomposition of your problem into components, 
+                        Decomposition of your problem into components,
                         study its complexity, concept and the theory behind it.
                     </p>
                 </div>
@@ -52,8 +52,8 @@ const Services = ({title, subtitle, note}) => {
                     <i className="fas fa-dollar-sign service-icon" aria-hidden="true"></i>
                     <h3 className="service-name">market</h3>
                     <p className="service-text">
-                        The smallest of your ideas and solutions can really 
-                        be millions if only it gets into the right place. 
+                        The smallest of your ideas and solutions can really
+                        be millions if only it gets into the right place.
                         let it be sold for you
                     </p>
                 </div>

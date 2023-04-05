@@ -9,7 +9,7 @@ import Hero from './sections/hero/Hero';
 import About from './sections/about/About';
 import Resume from './sections/resume/Resume';
 import Projects from './sections/projects/Projects';
-import Blog from './sections/blog/Blog';
+// import Blog from './sections/blog/Blog';
 import Services from './sections/services/Services';
 import Ideas from './sections/acheivements/Acheivement';
 import Footer from './sections/footer/Footer';
@@ -22,10 +22,11 @@ const App = () => {
     <div className="container">
       <Header />
       <Hero />
+      <Projects />
       <About />
       <Resume />
-      <Projects />
-      <Blog />
+      {/* projecs  */}
+      {/* <Blog /> */}
       <Services />
       <Ideas />
       <Contact />
