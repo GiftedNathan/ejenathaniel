@@ -12,23 +12,15 @@ const Header = ({ logo }) => {
     const toggleMenu = () => { setShowMenu(!showMenu) }
 
     const menu = (
-        // <nav className="menu">
-        //     <a className="nav-link active" href="/">Home</a>
-        //     <a className="nav-link" href="#about">about</a>
-        //     <a className="nav-link" href="#resume">resume</a>
-        //     <a className="nav-link" href="#portfolio">portfolio</a>
-        //     <a className="nav-link" href="#services">services</a>
-        //     <a className="nav-link disabled" href="#blog">blog</a>
-        //     <a className="nav-link" href="#contact">contact</a>
-        // </nav>
+
         <nav className="menu">
             <a className="nav-link active" href="/">Home</a>
-            <a className="nav-link" href="#portfolio">portfolio</a>
-            <a className="nav-link" href="#about">about</a>
-            <a className="nav-link" href="#resume">resume</a>
-            <a className="nav-link" href="#services">services</a>
+            <a className="nav-link" href="#portfolio" onClick={toggleMenu}>portfolio</a>
+            <a className="nav-link" href="#about" onClick={toggleMenu}>about</a>
+            <a className="nav-link" href="#resume" onClick={toggleMenu}>resume</a>
+            <a className="nav-link" href="#services" onClick={toggleMenu}>services</a>
             {/* <a className="nav-link disabled" href="#blog">blog</a> */}
-            <a className="nav-link" href="#contact">contact</a>
+            <a className="nav-link" href="#contact" onClick={toggleMenu}>contact</a>
         </nav>
 
     )
