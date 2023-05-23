@@ -6,6 +6,9 @@ import studentTaxHelpImage from '../../assets/images/studenttaxhelp.PNG';
 import rulebornImage from '../../assets/images/ruleborn.PNG';
 import isoxImage from '../../assets/images/isox.PNG';
 import emcaImage from '../../assets/images/emca.PNG';
+import magnumopusImage from '../../assets/images/magnumopus.PNG';
+import baynetfuseImage from '../../assets/images/baynetfuse.PNG';
+import onomeImage from '../../assets/images/onome.PNG';
 
 import animatedIconsImage from '../../assets/images/animated-icons.PNG';
 import easyRecipeImage from '../../assets/images/easyrecipe.PNG';
@@ -20,6 +23,24 @@ const Projects = ({ title, subtitle, note }) => {
             {/* WordPress projects  */}
             <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Okay, let's take a look at some of the websites I have created with WordPress recently.`} />
             <div className="project-container">
+                <div className="project">
+                    <img src={baynetfuseImage} className="project-image" alt="student tax help" />
+                    <a href='https://baynetfuse.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={magnumopusImage} className="project-image" alt="student tax help" />
+                    <a href='https://magnumopus.com.ng/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={onomeImage} className="project-image" alt="student tax help" />
+                    <a href='https://onomefoodmarket.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
                 <div className="project">
                     <img src={studentTaxHelpImage} className="project-image" alt="student tax help" />
                     <a href='https://studenttaxhelp.ca/' target='_blank' rel="noreferrer">
