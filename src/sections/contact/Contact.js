@@ -26,32 +26,34 @@ const Contact = ({ title, subtitle, note }) => {
         setMessage('');
     };
 
+
     const sendEmail = (e) => {
         // e.preventDefault();
 
         emailjs.sendForm('service_7axo4gb', 'template_z9szsgr', form.current, 'user_iec6KP9eYzC2iFC5C4j4K')
             .then((result) => {
                 // console.log(result.text);
+                alert("Thank you! I would like to inform you that an auto-generated email has been sent to the provided email address confirming the receipt of your message. This email serves as an acknowledgment that I have received your submission and will respond as soon as possible, Kindly check your email.");
                 clearInput();
-                alert("Thank you for contacting Eje Nathaniel, He will respond sooner than you expect.");
                 // form.reset()
             }, (error) => {
                 // console.log(error.text);
-                alert("Opps, something went wrong; " + error.text);
-            });
-    };
+                alert("Opps, Check your internet connection and try again. " + error.text);
+            }
+            );
 
+    }
 
     return (
         <div id="contact" className="contact-section">
 
             <SectionHeader title={title} subtitle={subtitle} note={note} />
 
-            <form className="contact-form" ref={form} onSubmit={handleSubmit(sendEmail)}>
-                {/* <input type="text" className="name" name="user_name" placeholder="name" /> */}
+            <form className="contact-form" id='contact-form' ref={form} onSubmit={handleSubmit(sendEmail)}>
+                {/* <form className="contact-form" id='contact-form' ref={form} onSubmit={handleSubmit(sendEmail)}> */}
                 <input
-                    type="text" className="name" name="user_name" placeholder="Full Name" id="name"
-                    {...register("name", { required: true, maxLength: 65, minLength: 3 })}
+                    type="text" className="name" name="user_name" placeholder="Full Name" id="user_name"
+                    {...register("user_name", { required: true, maxLength: 65, minLength: 3 })}
                     aria-invalid={errors.name ? "true" : "false"}
                     onChange={event => setFullName(event.target.value)}
                     value={fullName}
@@ -64,8 +66,8 @@ const Contact = ({ title, subtitle, note }) => {
 
                 {/* <input type="email" className="email" name="user_email" placeholder="email" /> */}
                 <input
-                    type="email" className="email" name="user_email" placeholder="email"
-                    {...register("mail", { required: "Email Address is required *" })}
+                    type="email" className="email" id="user_email" name="user_email" placeholder="email"
+                    {...register("user_email", { required: "Email Address is required *" })}
                     aria-invalid={errors.mail ? "true" : "false"}
                     onChange={event => setEmail(event.target.value)}
                     value={email}
@@ -75,8 +77,8 @@ const Contact = ({ title, subtitle, note }) => {
 
                 {/* <input type="text" className="subject" name="user_subject" placeholder="subject" /> */}
                 <input
-                    type="text" className="subject" name="user_subject" placeholder="Subject"
-                    {...register("subject", { required: true })}
+                    type="text" className="subject" id="user_subject" name="user_subject" placeholder="Subject"
+                    {...register("user_subject", { required: true })}
                     aria-invalid={errors.subject ? "true" : "false"}
                     onChange={event => setSubject(event.target.value)}
                     value={subject}
@@ -99,14 +101,18 @@ const Contact = ({ title, subtitle, note }) => {
                 <Button type="submit" name={'Submit'} />
 
             </form>
+
+
         </div>
     )
+
+
 }
 
 Contact.defaultProps = {
     title: 'contact',
     subtitle: 'I will Love to hear from you please.',
-    note: 'Kindly leave a message by filing the form below and I will respond accordingly, Thank You',
+    note: 'Kindly leave a message by filing the form below and I will respond accordingly, Thank You!',
 }
 
 export default Contact
