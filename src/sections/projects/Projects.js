@@ -10,6 +10,7 @@ import magnumopusImage from '../../assets/images/magnumopus.PNG';
 import baynetfuseImage from '../../assets/images/baynetfuse.PNG';
 import onomeImage from '../../assets/images/onome.PNG';
 import edublokImage from '../../assets/images/Edublok.PNG';
+import praiseImage from '../../assets/images/Praise.PNG';
 
 import animatedIconsImage from '../../assets/images/animated-icons.PNG';
 import easyRecipeImage from '../../assets/images/easyrecipe.PNG';
@@ -25,19 +26,25 @@ const Projects = ({ title, subtitle, note }) => {
             <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Okay, let's take a look at some of the websites I have created with WordPress recently.`} />
             <div className="project-container">
                 <div className="project">
-                    <img src={baynetfuseImage} className="project-image" alt="student tax help" />
+                    <img src={praiseImage} className="project-image" alt="praise child care" />
+                    <a href='https://praisechildcare.ca/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={baynetfuseImage} className="project-image" alt="baynetfuse" />
                     <a href='https://baynetfuse.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
                 <div className="project">
-                    <img src={magnumopusImage} className="project-image" alt="student tax help" />
+                    <img src={magnumopusImage} className="project-image" alt="magnumopus" />
                     <a href='https://magnumopus.com.ng/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
                 <div className="project">
-                    <img src={onomeImage} className="project-image" alt="student tax help" />
+                    <img src={onomeImage} className="project-image" alt="onome food market" />
                     <a href='https://onomefoodmarket.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
@@ -49,19 +56,19 @@ const Projects = ({ title, subtitle, note }) => {
                     </a>
                 </div>
                 <div className="project">
-                    <img src={rulebornImage} className="project-image" alt="student tax help" />
+                    <img src={rulebornImage} className="project-image" alt="ruleborn integrated" />
                     <a href='https://rulebornintegrated.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
                 <div className="project">
-                    <img src={isoxImage} className="project-image" alt="student tax help" />
+                    <img src={isoxImage} className="project-image" alt="isox ltd" />
                     <a href='https://isoxltd.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
                 <div className="project">
-                    <img src={emcaImage} className="project-image" alt="student tax help" />
+                    <img src={emcaImage} className="project-image" alt="emca accounting" />
                     <a href='https://www.emcaaccounting.ca/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
