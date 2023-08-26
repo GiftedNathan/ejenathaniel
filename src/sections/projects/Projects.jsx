@@ -11,6 +11,7 @@ import baynetfuseImage from '../../assets/images/baynetfuse.PNG';
 import onomeImage from '../../assets/images/onome.PNG';
 import edublokImage from '../../assets/images/Edublok.PNG';
 import praiseImage from '../../assets/images/Praise.PNG';
+import pafriboxImage from '../../assets/images/pafribox.png';
 
 import animatedIconsImage from '../../assets/images/animated-icons.PNG';
 import easyRecipeImage from '../../assets/images/easyrecipe.PNG';
@@ -76,6 +77,12 @@ const Projects = ({ title, subtitle, note }) => {
                 <div className="project">
                     <img src={edublokImage} className="project-image" alt="edublok" />
                     <a href='https://edublok.koinwa.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={pafriboxImage} className="project-image" alt="pafribox" />
+                    <a href='https://pafribox.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
