@@ -1,5 +1,5 @@
 import './App.css';
-import 'animate.css';
+// import 'animate.css';
 import './fontawesome/css/all.css';
 import { FaWhatsapp } from 'react-icons/fa';
 
@@ -31,7 +31,7 @@ const App = () => {
       <Ideas />
       <Contact />
       <Footer />
-      <a href="https://wa.me/2348103872283" className='whatsapp-icon-container'>
+      <a href="https://wa.me/2348103872283" className='whatsapp-icon-container float'>
         <FaWhatsapp className='whatsapp-icon' />
       </a>
     </div>
