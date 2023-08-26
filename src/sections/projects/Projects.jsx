@@ -22,7 +22,7 @@ const Projects = ({ title, subtitle, note }) => {
         <div id="portfolio" className="projects-section">
 
             {/* WordPress projects  */}
-            <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Okay, let's take a look at some of the websites I have created with WordPress recently.`} />
+            <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Okay, let's have a look at some of the websites I've recently built with WordPress.`} />
             <div className="project-container">
                 <div className="project">
                     <img src={baynetfuseImage} className="project-image" alt="student tax help" />

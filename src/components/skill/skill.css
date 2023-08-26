@@ -1,67 +1,36 @@
+.skill {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--color-text-gray);
+  border-radius: 1em;
+  padding: 20px;
+  box-shadow: -6px -6px 7px var(--color-bg-secondary-light),
+    -6px 6px 7px var(--color-bg-secondary-light),
+    6px 6px 7px var(--color-bg-secondary-light),
+    6px -6px 7px var(--color-bg-secondary-light);
+}
+.skill img {
+  margin: 5px;
+  max-width: 96px;
+}
+.skill img:nth-child(odd) {
+  margin: 10px;
+  rotate: -10deg;
+}
+.skill img:nth-child(even) {
+  margin: 5px;
+  rotate: 10deg;
+}
 
-.skill{
-    width: 90%;
-    height: 1.5em;
-    color: var(--color-text-gray);
-    border-radius: 1em;
-    margin: 30px 0px;
-    padding-left: 10px;
-    /* background-color: var(--color-bg-secondary); */
-    box-shadow: -6px -6px 7px var(--color-bg-secondary-light),  
-                -6px 6px 7px var(--color-bg-secondary-light),  
-                6px 6px 7px var(--color-bg-secondary-light),
-                6px -6px 7px var(--color-bg-secondary-light);
-    position: relative;
+/* styling for other devices  */
+@media screen and (max-width: 768px) {
+  .skill img {
+    max-width: 72px;
+  }
 }
-.skill .progress{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: .4em;
-    right: .5em;
-    bottom: .5em;
-    padding: 7px 20px;
-    font-size: .8em;
-    /* width: 60%; */
-    /* width: calc( var( --val, 0) * 1%); */
-    /* height: .7em; */
-    min-width: 2rem;
-    max-width: calc(100% - 1em);
-    /* background-color: var(--color-text-tertiary); */
-    border-radius: 1em;
-    
-    /* background-color: transparent;
-    box-shadow: inset -6px -6px 14px var(--color-bg-secondary-light), 
-                inset 6px 6px 10px var(--color-bg-secondary-light); */
-                background:linear-gradient(90deg, rgba(255, 132, 113, 0.692) 0%, rgba(174, 103, 250, 0.692) 40%, var(--color-bg-secondary) 100% );
-}
-/* .skill::before{
-    content: attr(skillPercentage);
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: .4em;
-    right: .5em;
-    bottom: .5em;
-    width: 60%; */
-    /* width: calc( var( --val, 0) * 1%); */
-    /* height: 1.2em;
-    min-width: 2rem;
-    max-width: calc(100% - 1em); */
-    /* background-color: var(--color-text-tertiary); */
-    /* border-radius: 1em;
-
-    background-color: transparent;
-    box-shadow: inset -6px -6px 14px var(--color-bg-secondary-light), 
-                inset 6px 6px 10px var(--color-bg-secondary-light); 
-}
-*/
-.skill::after{
-    content: attr(skillName);
-    position: absolute;
-    top: -30px;
-    left: 10px;
-    font-size: 1.2em;
-    font-weight: 600;
-        
+@media screen and (max-width: 425px) {
+  .skill img {
+    max-width: 46px;
+  }
 }

@@ -9,14 +9,15 @@ import { FaHandshake, FaScrewdriver } from 'react-icons/fa'
 
 
 const About = ({ title, subtitle, note, profile, skills }) => {
-    const profileImage = <div className="profile-image "></div>
+    // const profileImage = <div className="profile-image "></div>
     const downloadIcon = <FcDownload className="button-icon" />
     const hireMeIcon = <FaHandshake className="button-icon" />
 
     return (
         <section className="about-section " id="about">
 
-            <SectionHeader title={title} subtitle={subtitle} note={note} profileImage={profileImage} />
+            {/* <SectionHeader title={title} subtitle={subtitle} note={note} profileImage={profileImage} /> */}
+            <SectionHeader title={title} subtitle={subtitle} note={note} />
             <div className="about-row tilt-in-fwd-tr">
                 {/* the profile  */}
                 <div className="profile">
@@ -27,10 +28,10 @@ const About = ({ title, subtitle, note, profile, skills }) => {
                             <h4><FcBusinessman /> full name</h4>
                             <p>eje nathaniel akenyi</p>
                         </div>
-                        <div className="profile-item">
+                        {/* <div className="profile-item">
                             <h4> <FcCalendar /> date of birth</h4>
                             <p>march 24, 1993</p>
-                        </div>
+                        </div> */}
                         <div className="profile-item">
                             <h4> <FcBriefcase /> job description</h4>
                             <p>web developer / designer</p>
@@ -56,14 +57,14 @@ const About = ({ title, subtitle, note, profile, skills }) => {
                     <h3 className="title-1">skills <FaScrewdriver className="Fa-screwdriver" /></h3>
                     <p className="text">{skills}</p>
                     <div className="skills-content">
-                        <Skill skillName={'WordPress'} skillPercentage={80} />
-                        <Skill skillName={'HTML'} skillPercentage={79} />
+                        <Skill />
+                        {/* <Skill skillName={'HTML'} skillPercentage={79} /> 
                         <Skill skillName={'CSS'} skillPercentage={87} />
                         <Skill skillName={'SCSS'} skillPercentage={64} />
                         <Skill skillName={'JavaScript'} skillPercentage={72} />
                         <Skill skillName={'Bootstrap'} skillPercentage={70} />
                         <Skill skillName={'ReatJs'} skillPercentage={75} />
-                        <Skill skillName={'Reat Native'} skillPercentage={51} />
+                        <Skill skillName={'Reat Native'} skillPercentage={51} /> */}
 
                     </div>
                 </div>
@@ -81,9 +82,9 @@ const About = ({ title, subtitle, note, profile, skills }) => {
 About.defaultProps = {
     title: 'about',
     subtitle: 'Let me introduce myself',
-    note: 'A software developer passionate about web design, development and interaction. An enthusiastic, organized, and dependable employee looking for a new role where I can utilize my skillset while also learning and growing in experience.',
-    profile: 'A graduate of computer science, with strong and diverse background in software development, programming, computer architecture, operation system, data structures and high honors in undergraduate studies, plus excellent communication and time management skills. ',
-    skills: 'I am proficient in WordPress, JavaScript, PHP, ReactJs (React router dom, React Styled Components, React Hooks, components, props, useState(), useEffect() etc), React Native, Bootstrap, CodeIgniter, and Laravel design and development.',
+    note: 'I am a web developer passionate about web design, development, and interaction. I have good experience building scalable, responsive, and high-quality applications, and I can collaborate even from a remote location. I am an organized and trustworthy employee seeking a new position where I can use my skills while also learning and improving my experience.',
+    profile: 'A computer science graduate with strong and various backgrounds in software development, programming, computer architecture, operating systems, and data structures, as well as high honors in undergraduate studies and good communication and time management skill sets.',
+    skills: 'JavaScript, PHP, SCSS, WordPress, ReactJs, React Native, Bootstrap, CodeIgniter, and Laravel are all skills I have.',
 
 }
 

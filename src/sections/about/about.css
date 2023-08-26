@@ -33,7 +33,7 @@
 .profile-image {
   width: 150px;
   height: 150px;
-  background-image: url(../../logo-nathan/profile-image.png);
+  background-image: url(../../assets/logo/profile-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;

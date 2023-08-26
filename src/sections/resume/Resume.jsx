@@ -14,10 +14,15 @@ const Resume = ({ title, subtitle, note }) => {
                 <div className="resume-item">
                     <div className="item-header">
                         <h3 className="item-title">Junior Developer & Designer</h3>
-                        <p className="item-date">December 2022 - March 2023 </p>
+                        <p className="item-date">December 2022 - September 2023 </p>
                     </div>
                     <div className="item-content">
                         <h3 className="item-title">Dawih Solutions (Remote)</h3>
+                        <p className="item-text">
+                            Design, develop, and maintain fully-fledged and functioning websites 
+                            and other platforms with databases, working on both front-end and 
+                            back-end development processes. 
+                        </p>
                         <p className="item-text">
                             I Provide professional web designs and solutions as well as
                             provided support and maintance for wordpress solutions.
@@ -32,10 +37,14 @@ const Resume = ({ title, subtitle, note }) => {
                     <div className="item-content">
                         <h3 className="item-title">Xtech Global Services</h3>
                         <p className="item-text">
-                            I collaborated closely with coders to create new code. Aided in troubleshooting
-                            to identify program problems.
-                            To keep the section operating smoothly, I handled clerical tasks for web
-                            development employees. I brainstormed novel concepts with project managers
+                            Assisted with coding under the direction of senior web developers, 
+                            tested existing code, formatted graphics for web use, communicated 
+                            with clients about the project.
+                        </p>
+                        <p className="item-text">
+                            Responsible for troubleshooting website issues and testing website 
+                            functionality as well as new technology for potential use.
+                            I brainstormed novel concepts with project managers
                             and the production team.
                         </p>
                     </div>
@@ -50,8 +59,14 @@ const Resume = ({ title, subtitle, note }) => {
                         <p className="item-text">
                             Developed basic applications using, WordPress,  HTML, CSS, PHP, JavaScript, Bootstrap, React, Laravel and codeIgniter.  Helped development, QA, and user experience teams create new products.
                             Improved software engineering processes and best practices were learned.
+                        </p>
+                        <p className="item-text">
                             Collaborated with engineers to find and eliminate software bugs.
                             New applications were tested for usefulness and adherence to the code plan.
+                        </p>
+                        <p className="item-text">
+                            To keep the section operating smoothly, I handled clerical tasks for web
+                            development employees.
                         </p>
                     </div>
                 </div>
@@ -74,7 +89,10 @@ const Resume = ({ title, subtitle, note }) => {
                             Modules covered included Artificial Intelligence,
                             Data Structures and Algorithms, Logic and Computation,
                             Object Oriented Programming, Full Stack Application
-                            Development, Human-Computer Interaction, Intelligent
+                            Development.
+                        </p>
+                        <p className="item-text">
+                            Human-Computer Interaction, Intelligent
                             Robotics, Machine Learning and Intelligent Data
                             Analysis, Security of Real-World Systems and
                             Theoretical Foundations for Security.
@@ -89,9 +107,9 @@ const Resume = ({ title, subtitle, note }) => {
                     <div className="item-content">
                         <h3 className="item-title">West Of Mines Jos</h3>
                         <p className="item-text">
-                            Obtained my high school education here. i was aquinted with
-                            the rudiments of a science student, with basic
-                            knowledge in mathematics, physics, chemistry, and biology.
+                            I obtained my high school education here. 
+                            I was equipped with the requisites of a Science student, 
+                            with basic knowledge in mathematics, physics, chemistry, and biology.
                         </p>
                     </div>
                 </div>

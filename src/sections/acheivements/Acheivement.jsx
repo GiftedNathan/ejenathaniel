@@ -6,14 +6,9 @@ const Ideas = () => {
     return (
         <div className="acheivement-section">
             <div className="acheivement">
-                <i className="fas fa-clock "></i>
-                <h3 className="acheivement-figue">1436</h3>
-                <p className="acheivement-text">hours</p>
-            </div>
-            <div className="acheivement">
-                <i className="fas fa-lightbulb "></i>
-                <h3 className="acheivement-figue">54</h3>
-                <p className="acheivement-text">crazy ideas</p>
+                <i className="fas fa-chalkboard-teacher"></i>
+                <h3 className="acheivement-figue">36+</h3>
+                <p className="acheivement-text">Websites</p>
             </div>
             <div className="acheivement">
                 <i className="fas fa-project-diagram "></i>
@@ -26,9 +21,14 @@ const Ideas = () => {
                 <p className="acheivement-text">clients</p>
             </div>
             <div className="acheivement">
-                <i className="fas fa-chalkboard-teacher "></i>
-                <h3 className="acheivement-figue">224</h3>
-                <p className="acheivement-text">tutorials</p>
+                <i className="fas fa-clock "></i>
+                <h3 className="acheivement-figue">40hr/w</h3>
+                <p className="acheivement-text">available</p>
+            </div>
+            <div className="acheivement">
+                <i className="fas fa-lightbulb "></i>
+                <h3 className="acheivement-figue">54</h3>
+                <p className="acheivement-text">crazy ideas</p>
             </div>
         </div>
     )
