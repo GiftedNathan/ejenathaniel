@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import './header.css'
 import Navbar from './Navbar'
-import Logo from '../../logo-nathan/logo-nath-white.png'
+import Logo from '../../assets/logo/logo-nath-white.png'
 
 
 

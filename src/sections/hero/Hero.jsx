@@ -4,7 +4,7 @@ import Button from '../../components/button/Button'
 import React from 'react'
 import Typed from 'typed.js'
 import { FaArrowCircleDown } from 'react-icons/fa'
-import Logo from '../../logo-nathan/logo-nath-white.png'
+import Logo from '../../assets/logo/logo-nath-white.png'
 
 
 
@@ -22,11 +22,11 @@ const Hero = ({ name, designation, greeting }) => {
     const options = {
       strings: [
         'Frontend Developer',
-        'WordPress Developer',
+        'WordPress Web Desinger',
         'Frontend Developer',
         'Web Designer',
         'Good with ReactJs',
-        'Friends with SCSS',
+        'Friends with CSS',
         'Lover of WordPress',
         'Clean Codes',
         'Thinks Differently',
@@ -63,7 +63,7 @@ const Hero = ({ name, designation, greeting }) => {
         </div>
       </div>
 
-      <a href="#about"><Button name={'Learn more'} icon={learnMoreIcon} /></a>
+      <a href="#portfolio"><Button name={'my projects'} icon={learnMoreIcon} /></a>
 
       <Links />
     </section>

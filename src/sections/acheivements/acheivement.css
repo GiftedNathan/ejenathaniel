@@ -1,51 +1,59 @@
-.acheivement-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 60px 30px;
-    background:linear-gradient(90deg, var(--color-bg-secondary) 0%, rgba(174, 103, 250, 0.692) 40%, rgba(255, 132, 113, 0.692) 100%);
-
+.acheivement-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 60px 30px;
+  background: linear-gradient(
+    90deg,
+    var(--color-bg-secondary) 0%,
+    rgba(174, 103, 250, 0.692) 40%,
+    rgba(255, 132, 113, 0.692) 100%
+  );
 }
-.acheivement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 160px;
-    margin: 20px;
-    padding: 5px 20px;
-    text-align: center;
-    border-radius: 10px;
-    border-left: 1px solid var(--color-purple);
-    border-right: 1px solid var(--color-purple);
+.acheivement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  margin: 20px;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 10px;
+  border-left: 1px solid var(--color-purple);
+  border-right: 1px solid var(--color-purple);
 }
-.acheivement .fas{
-    font-size: 3em;
-    line-height: 1.5em;
-    background:linear-gradient(90deg, rgba(174, 103, 250, 1) 20%, rgba(255, 132, 113, 1) 80%);
-    background-clip: text;
-    color: transparent;
+.acheivement .fas {
+  font-size: 3em;
+  line-height: 1.5em;
+  background: linear-gradient(
+    90deg,
+    rgba(174, 103, 250, 1) 20%,
+    rgba(255, 132, 113, 1) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
-.acheivement-figue{
-    font-size: 2em;
-    font-weight: 600;
-    line-height: 1.5em;
-    color: var(--color-bg-secondary);
-
+.acheivement-figue {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: var(--color-bg-secondary);
 }
-.acheivement-text{
-    font-size: 1.2em;
-    text-transform: capitalize;
-    color: var(--color-text-gray);
+.acheivement-text {
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: var(--color-text-gray);
 }
 
 @media screen and (max-width: 768px) {
-    .acheivement{
-        padding: 10px 15px;
-        border: none;
-        border-radius: 10px;
-        border-top: 1px solid var(--color-purple);
-        border-bottom: 1px solid var(--color-purple);
-    }
+  .acheivement {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    border-top: 1px solid var(--color-purple);
+    border-bottom: 1px solid var(--color-purple);
+  }
 }
