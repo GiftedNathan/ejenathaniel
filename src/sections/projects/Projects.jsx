@@ -2,20 +2,20 @@ import Button from '../../components/button/Button'
 import { SectionHeader } from '../../components/section-header/SectionHeader'
 import './projects.css'
 
-import studentTaxHelpImage from '../../assets/images/studenttaxhelp.PNG';
-import rulebornImage from '../../assets/images/ruleborn.PNG';
-import isoxImage from '../../assets/images/isox.PNG';
-import emcaImage from '../../assets/images/emca.PNG';
-import magnumopusImage from '../../assets/images/magnumopus.PNG';
-import baynetfuseImage from '../../assets/images/baynetfuse.PNG';
-import onomeImage from '../../assets/images/onome.PNG';
-import edublokImage from '../../assets/images/Edublok.PNG';
+import studentTaxHelpImage from '../../assets/images/studenttaxhelp.png';
+import rulebornImage from '../../assets/images/ruleborn.png';
+import isoxImage from '../../assets/images/isox.png';
+import emcaImage from '../../assets/images/emca.png';
+import magnumopusImage from '../../assets/images/magnumopus.png';
+import baynetfuseImage from '../../assets/images/baynetfuse.png';
+import onomeImage from '../../assets/images/onome.png';
+import edublokImage from '../../assets/images/Edublok.png';
 
-import animatedIconsImage from '../../assets/images/animated-icons.PNG';
-import easyRecipeImage from '../../assets/images/easyrecipe.PNG';
-import ejeImage from '../../assets/images/eje.PNG';
-import kryptolandImage from '../../assets/images/kryptoland.PNG';
-import translatorImage from '../../assets/images/translator.PNG';
+import animatedIconsImage from '../../assets/images/animated-icons.png';
+import easyRecipeImage from '../../assets/images/easyrecipe.png';
+import ejeImage from '../../assets/images/eje.png';
+import kryptolandImage from '../../assets/images/kryptoland.png';
+import translatorImage from '../../assets/images/translator.png';
 
 const Projects = ({ title, subtitle, note }) => {
     return (
