@@ -7,7 +7,7 @@ const Skill = ({skillName, skillPercentage}) => {
         </div>
     )
 }
-
+ 
 Skill.defaultProps ={
     skillName: 'skill Name',
     skillPercentage: 46,
