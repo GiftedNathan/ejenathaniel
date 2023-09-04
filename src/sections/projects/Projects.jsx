@@ -10,6 +10,7 @@ import magnumopusImage from '../../assets/images/magnumopus.png';
 import baynetfuseImage from '../../assets/images/baynetfuse.png';
 import onomeImage from '../../assets/images/onome.png';
 import edublokImage from '../../assets/images/Edublok.png';
+import praiseImage from '../../assets/images/praise.png';
 
 import animatedIconsImage from '../../assets/images/animated-icons.png';
 import easyRecipeImage from '../../assets/images/easyrecipe.png';
@@ -24,6 +25,12 @@ const Projects = ({ title, subtitle, note }) => {
             {/* WordPress projects  */}
             <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Okay, let's have a look at some of the websites I've recently built with WordPress.`} />
             <div className="project-container">
+                <div className="project">
+                    <img src={praiseImage} className="project-image" alt="praise child care" />
+                    <a href='https://praisechildcare.ca/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
                 <div className="project">
                     <img src={baynetfuseImage} className="project-image" alt="student tax help" />
                     <a href='https://baynetfuse.com/' target='_blank' rel="noreferrer">
