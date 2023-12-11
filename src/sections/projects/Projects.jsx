@@ -10,7 +10,13 @@ import magnumopusImage from '../../assets/images/magnumopus.png';
 import baynetfuseImage from '../../assets/images/baynetfuse.png';
 import onomeImage from '../../assets/images/onome.png';
 import edublokImage from '../../assets/images/Edublok.png';
+import dbmnImage from '../../assets/images/dbmn.jpg';
 import praiseImage from '../../assets/images/praise.png';
+import zionbarsImage from '../../assets/images/zionbars.jpg';
+import brandleepImage from '../../assets/images/brandleep.jpg';
+import zecnetImage from '../../assets/images/zecnet.jpg';
+import helpinghandsImage from '../../assets/images/helpinghands.jpg';
+import koinwaImage from '../../assets/images/koinwa.jpg';
 
 import animatedIconsImage from '../../assets/images/animated-icons.png';
 import easyRecipeImage from '../../assets/images/easyrecipe.png';
@@ -26,6 +32,24 @@ const Projects = ({ title, subtitle, note }) => {
             <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Okay, let's have a look at some of the websites I've recently built with WordPress.`} />
             <div className="project-container">
                 <div className="project">
+                    <img src={helpinghandsImage} className="project-image" alt="helpinghands consultancy banner" />
+                    <a href='https://helpinghandsconsultancyafrica.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={zecnetImage} className="project-image" alt="zecnet tech image" />
+                    <a href='https://zecnet-tech.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={brandleepImage} className="project-image" alt="brandleep image" />
+                    <a href='https://brandleep.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
                     <img src={praiseImage} className="project-image" alt="praise child care" />
                     <a href='https://praisechildcare.ca/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
@@ -34,6 +58,18 @@ const Projects = ({ title, subtitle, note }) => {
                 <div className="project">
                     <img src={baynetfuseImage} className="project-image" alt="student tax help" />
                     <a href='https://baynetfuse.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={zionbarsImage} className="project-image" alt="zionbars banner" />
+                    <a href='https://zionbars.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={koinwaImage} className="project-image" alt="koinwa image" />
+                    <a href='https://edublok.koinwa.com/koinwa/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
@@ -68,8 +104,14 @@ const Projects = ({ title, subtitle, note }) => {
                     </a>
                 </div>
                 <div className="project">
-                    <img src={emcaImage} className="project-image" alt="student tax help" />
+                    <img src={emcaImage} className="project-image" alt="emca accounting" />
                     <a href='https://www.emcaaccounting.ca/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={dbmnImage} className="project-image" alt="doing business conference" />
+                    <a href='https://doingbusinessinnigeriaconference.net/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>

@@ -6,12 +6,32 @@ import '../../fontawesome/css/all.min.css'
 import { FcBusinessman, FcCalendar, FcBriefcase, FcWebcam, FcDownload, FcManager } from 'react-icons/fc'
 import { MdMail } from 'react-icons/md'
 import { FaHandshake, FaScrewdriver } from 'react-icons/fa'
+import cv from '../../cv/Resume-Nathaniel-Eje.pdf'
 
 
 const About = ({ title, subtitle, note, profile, skills }) => {
     // const profileImage = <div className="profile-image "></div>
     const downloadIcon = <FcDownload className="button-icon" />
     const hireMeIcon = <FaHandshake className="button-icon" />
+
+    const onDownloadClick = () => {
+     
+        // using Java Script method to get PDF file
+        fetch("../../cv/Resume-Nathaniel-Eje.pdf").then((response) => {
+            response.blob().then((blob) => {
+             
+                // Creating new object of PDF file
+                const fileURL =
+                    window.URL.createObjectURL(blob);
+                     
+                // Setting various property values
+                let alink = document.createElement("a");
+                alink.href = fileURL;
+                alink.download = "Resume-Nathaniel-Eje.pdf";
+                alink.click();
+            });
+        });
+    };
 
     return (
         <section className="about-section " id="about">
@@ -72,7 +92,8 @@ const About = ({ title, subtitle, note, profile, skills }) => {
             </div>
 
             <div className="about-buttons">
-                <a href="../../cv/Eje-Nathaniel-CV-Software-Developer-v1.pdf" className="button float" download >Curiculum Vitae {downloadIcon}</a>
+                <a href={cv} className="button float" download="Resume-Nathaniel-Eje">Curiculum Vitae {downloadIcon}</a>
+                             
                 <a href="#contact" className="button float">Hire me {hireMeIcon}</a>
             </div>
         </section>
