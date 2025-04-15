@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 768px) {
   .projects-section {
-    padding: 40px 0px;
+    padding: 40px 15px;
   }
 
   .project-container {
@@ -108,9 +108,6 @@
   }
 }
 @media screen and (max-width: 425px) {
-  .projects-section {
-    padding: 100px 0px;
-  }
   .project-container {
     width: 100%;
     margin: 0px;

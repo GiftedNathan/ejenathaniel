@@ -35,7 +35,7 @@
     height: 2px;
     background-color: var(--color-text-gray);
     top: 2px;
-    left: 0px;
+    left: 4px;
 }
 .menu-icon::after{
     position: absolute;
@@ -105,6 +105,6 @@
         padding: 1em 1.5em;
     }
     .site-logo{
-        width: 5em;
+        width: 7em;
     }
 }

@@ -62,11 +62,11 @@ const Hero = ({ name, designation, greeting }) => {
         </div>
         <h3 style={{marginTop: -25}}>Let’s Build Something Great Together</h3>
 
-        <p className="hero-text">From concept to launch—I bring ideas to life with clean design, modern tech, and a touch of creative magic.</p>
+        <p className="hero-text">I craft intuitive, responsive, and visually engaging websites, merging frontend and WordPress development. From concept to launch—I bring ideas to life with clean design, modern tech, and a touch of creative magic.</p>
 
       <Links />
 
-        <a href="#portfolio"><Button name={'my projects'} icon={learnMoreIcon} /></a>
+        <a href="#portfolio"><Button name={'My projects'} icon={learnMoreIcon} /></a>
 
       </div>
 
