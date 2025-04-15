@@ -21,3 +21,12 @@
 .button .fa, .button .fas, button .fab{
     margin-left: 15px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .button{
+        margin-top: 30px;
+        padding: 10px 30px;
+        font-size: .9em;
+    }
+}

@@ -5,8 +5,8 @@
 }
 
 .nav .nav-link{
-    font-size: 1.1em;
-    letter-spacing: 1px;
+    font-size: 1em;
+    letter-spacing: 3px;
     text-transform: capitalize;
     padding: 10px 15px;
     color: var(--color-text-white);

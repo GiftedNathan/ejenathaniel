@@ -2,9 +2,10 @@ import './links.css'
 import { FaTwitter, FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 
-export const Links = () => {
+export const Links = ({centerLinks}) => {
     return (
-        <div className="social-links">
+        // <div className="social-links">
+        <div className={`social-links ${centerLinks}`}>
             <a href="https://www.github.com/giftednathan" target="_blank" rel="noreferrer">
                 <FaGithub className="fab fa-whatsapp" />
             </a>
@@ -28,3 +29,7 @@ export const Links = () => {
 }
 
 export default Links
+
+Links.defaultProps = {
+    centerLinks: '',
+}

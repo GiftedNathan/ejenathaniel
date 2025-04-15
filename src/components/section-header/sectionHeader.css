@@ -1,8 +1,13 @@
 .section-header {
-  max-width: 768px;
-  /* padding: 30px; */
+  /* max-width: 768px; */
+    max-width: 1080px;
 }
-
+  
+.section-header-center {
+  max-width: 1080px;
+  text-align: center;
+  /* border: 1px solid white; */
+}
 .title {
   font-size: 1.5em;
   font-weight: 300;
@@ -17,19 +22,21 @@
   /* color: var(--color-text-primary); */
 }
 .note {
-  font-size: 1.1em;
-  line-height: 2em;
+  font-size: 1em;
+    font-weight: 300;
+    line-height: 1.6em;
   color: var(--color-text-gray);
 }
 
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 1.4em;
+    font-size: 1em;
   }
   .subtitle {
-    font-size: 1.6em;
+    font-size: 1.2em;
+    margin: 10px 0px;
   }
   .note {
-    font-size: 1em;
+    font-size: .9em;
   }
 }

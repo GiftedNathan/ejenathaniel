@@ -1,5 +1,5 @@
 import Button from '../../components/button/Button'
-import { SectionHeader } from '../../components/section-header/SectionHeader'
+import { SectionHeaderCenter } from '../../components/section-header/SectionHeaderCenter'
 import './contact.css'
 
 import React, { useRef, useState } from 'react';
@@ -47,7 +47,7 @@ const Contact = ({ title, subtitle, note }) => {
     return (
         <div id="contact" className="contact-section">
 
-            <SectionHeader title={title} subtitle={subtitle} note={note} />
+            <SectionHeaderCenter title={title} subtitle={subtitle} note={note} />
 
             <form className="contact-form" id='contact-form' ref={form} onSubmit={handleSubmit(sendEmail)}>
                 {/* <form className="contact-form" id='contact-form' ref={form} onSubmit={handleSubmit(sendEmail)}> */}
@@ -111,8 +111,8 @@ const Contact = ({ title, subtitle, note }) => {
 
 Contact.defaultProps = {
     title: 'contact',
-    subtitle: 'I will Love to hear from you please.',
-    note: 'Kindly leave a message by filing the form below and I will respond accordingly, Thank You!',
+    subtitle: 'I will Love to hear from you, let us connect!',
+    note: 'Have a question, project, or just want to say hello? I would love to hear from you. Fill out the form below, and I will get back to you as soon as possible. Thanks for reaching out!',
 }
 
 export default Contact

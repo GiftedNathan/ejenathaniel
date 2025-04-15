@@ -11,18 +11,21 @@
   font-size: 1.5em;
   line-height: 3em;
   letter-spacing: 5px;
+  text-transform: capitalize;
   color: var(--color-text-gray);
 }
 .text {
   font-size: 1em;
-  line-height: 2em;
+  line-height: 1.8em;
+  font-weight: 300;
   color: var(--color-text-gray);
 }
 
 .about-row {
   width: 100%;
+  max-width: 1080px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 30px 0px;
 }
 
@@ -103,7 +106,7 @@
 /* styling for other devices  */
 @media screen and (max-width: 768px) {
   .about-section {
-    padding: 100px 60px;
+    padding: 40px 15px;
   }
   .about-row {
     flex-direction: column;
@@ -112,10 +115,21 @@
   .seperator {
     display: none;
   }
-}
 
-@media screen and (max-width: 768px) {
-  .about-section {
-    padding: 60px 15px;
+  .title-1 {
+    font-size: 1.2em;
+  }
+  .text {
+    font-size: .9em;
+    line-height: 1.6em;
+  }
+
+  .profile-item h4 {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  .profile-item p {
+    font-size: .9em;
   }
 }
+

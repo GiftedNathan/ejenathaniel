@@ -1,14 +1,23 @@
 .social-links{
+    /* width: min-content; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: -15px;
+    color: var(--color-text-gray);
+}
+.center-links{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px;
-    color: var(--color-text-gray);
+    margin-left: unset;
 }
 
 .fab{
     font-size: 2.1em;
     margin: 0px 15px;
+    /* margin-right: 30px; */
 }
 
 .fab:hover{

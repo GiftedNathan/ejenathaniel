@@ -21,22 +21,21 @@ const Hero = ({ name, designation, greeting }) => {
   React.useEffect(() => {
     const options = {
       strings: [
-        'Frontend Developer',
-        'WordPress Web Desinger',
-        'Frontend Developer',
-        'Web Designer',
-        'Good with ReactJs',
-        'Friends with CSS',
-        'Lover of WordPress',
-        'Clean Codes',
-        'Thinks Differently',
+        '’m a Frontend Developer',
+        '’m a WordPress Expert',
+        '’m a Creative Web Designer',
+        '’m a React Enthusiast',
+        '’m a CSS Whisperer',
+        '’m a Clean Code Advocate',
+        '’m a Pixel-Perfect Builder',
+        '’ve got Innovative Mindset',
       ],
       typeSpeed: 80,
       backSpeed: 80,
       loop: true,
       // loopCount: Infinity,
       showCursor: true,
-      cursorChar: ']',
+      cursorChar: '',
       autoInsertCss: true,
     };
 
@@ -54,26 +53,54 @@ const Hero = ({ name, designation, greeting }) => {
   return (
     <section className="hero-section bg-gradient-close">
       <div className="hero-section-content">
-        <p>{greeting}</p>
-        <h1 className="">Work with <span  >{'<'}  {name} {'/>'} </span> </h1>
-        <img src={Logo} className="hero-image" alt="hero" />
+        <p>👋<span className='greeting'>{greeting}</span></p>
+        
+        {/* <h1>Let’s Build Something Great Together</h1> */}
         <div className="designation">
-          <span className="typed-cursor">[</span>
-          <h3 ref={el}>{designation}</h3>
+          <h3>I<span className="typed-cursor"></span></h3>
+          <h3 ref={el}></h3>
         </div>
-      </div>
+        <h3 style={{marginTop: -25}}>Let’s Build Something Great Together</h3>
 
-      <a href="#portfolio"><Button name={'my projects'} icon={learnMoreIcon} /></a>
+        <p className="hero-text">From concept to launch—I bring ideas to life with clean design, modern tech, and a touch of creative magic.</p>
 
       <Links />
+
+        <a href="#portfolio"><Button name={'my projects'} icon={learnMoreIcon} /></a>
+
+      </div>
+
     </section>
+    // <section className="hero-section bg-gradient-close">
+    //   <div className="hero-section-content">
+    //     <p>{greeting}</p>
+    //     <img src={Logo} className="hero-image" alt="hero" />
+    //     {/* <h1 className="">Let’s Build Something Great Together <span  >{'<'}  {name} {'/>'} </span> </h1> */}
+        
+    //     <h3 >Let’s Build Something Great Together</h3>
+    //     <div className="designation">
+    //       <h3>I'm a<span className="typed-cursor">`</span></h3>
+    //       <h3 ref={el}>{designation}</h3>
+    //     </div>
+    //     {/* <div className="designation">
+    //       <span className="typed-cursor">[</span>
+    //       <h3 ref={el}>{designation}</h3>
+    //     </div> */}
+
+    //   <a href="#portfolio"><Button name={'my projects'} icon={learnMoreIcon} /></a>
+
+    //   <Links />
+
+    //   </div>
+
+    // </section>
   )
 }
 
 Hero.defaultProps = {
   name: 'NathanEje',
   designation: 'Frontend Developer',
-  greeting: 'hello world'
+  greeting: 'Hello, work with me'
 }
 
 
