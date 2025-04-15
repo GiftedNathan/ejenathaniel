@@ -49,11 +49,26 @@
 }
 
 @media screen and (max-width: 768px) {
+  .acheivement-section {
+    padding: 40px 15px;
+  }
   .acheivement {
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
     border-top: 1px solid var(--color-purple);
     border-bottom: 1px solid var(--color-purple);
+  }
+  .acheivement .fas {
+    font-size: 2.5em;
+  }
+  .acheivement-figue {
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .acheivement-text {
+    font-size: 1em;
+    text-transform: capitalize;
   }
 }

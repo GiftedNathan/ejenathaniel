@@ -15,11 +15,13 @@
   position: relative;
 }
 .container-title {
-  font-size: 2em;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  font-weight: 300;
   text-transform: capitalize;
   text-align: center;
-  margin: 40px 0px 20px 0px;
-  color: var(--color-text-primary);
+  margin: 40px 0px 0px 0px;
+  color: var(--color-text-gray);
 }
 .line-divider {
   position: absolute;
@@ -43,7 +45,7 @@
   width: calc(50% - 40px);
   text-align: right;
   border-radius: 10px;
-  background-color: var(--color-bg-secondary);
+  background-color: var(--color-bg-secondary-light);
   /* background:linear-gradient(90deg, var(--color-bg-secondary) 0%, rgba(174, 103, 250, 0.692) 40%, rgba(255, 132, 113, 0.692) 100%); */
   z-index: 2;
   position: relative;
@@ -57,7 +59,7 @@
   padding: 10px 30px;
   width: calc(50% - 40px);
   border-radius: 10px;
-  background-color: var(--color-bg-secondary);
+  background-color: var(--color-bg-secondary-light);
   z-index: 2;
   position: relative;
   /* box-shadow: -6px -6px 7px var(--color-bg-secondary-light),
@@ -76,7 +78,7 @@
   height: 30px;
   transform: rotate(45deg);
   z-index: -1;
-  background-color: var(--color-bg-secondary);
+  background-color: var(--color-bg-secondary-light);
 }
 .item-content::before {
   left: -10px;
@@ -84,7 +86,7 @@
 
 .item-title {
   font-size: 1.3em;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 2em;
   text-transform: capitalize;
 }
@@ -99,6 +101,7 @@
 }
 .icon {
   margin-left: 15px;
+  margin-bottom: -5px;
   font-size: 1em;
   color: var(--color-text-gray);
 }
@@ -110,6 +113,10 @@
   .resume-container {
     margin: 0px;
     font-size: 0.8px;
+  }
+  .container-title {
+    font-size: 1.2em;
+    margin: 40px 0px 10px 0px;
   }
   .line-divider {
     left: -30px;
@@ -133,14 +140,14 @@
     transform: translateX(-50%);
   }
   .item-title {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.6em;
     text-transform: capitalize;
   }
 
   .item-text {
     font-size: 0.9em;
-    line-height: 1.9em;
+    line-height: 1.6em;
   }
 }
 
@@ -163,7 +170,7 @@
 }
 @media screen and (max-width: 425px) {
   .resume-section {
-    padding: 100px 15px;
+    padding: 40px 15px;
   }
   .resume-container {
     margin: 0px;

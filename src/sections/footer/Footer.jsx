@@ -38,11 +38,11 @@ const Footer = () => {
                 </div>
             </div>
 
-            <Links />
+            <Links centerLinks={"center-links"}/>
 
             <p className="copy-right">
-                &copy; Eje Nathaniel 2023
-                - Built with much love.
+                &copy; Eje Nathaniel 2025
+                - Built with much 💞️ love.
             </p>
 
         </div>

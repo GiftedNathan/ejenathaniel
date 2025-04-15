@@ -1,11 +1,11 @@
-import { SectionHeader } from '../../components/section-header/SectionHeader'
+import { SectionHeaderCenter } from '../../components/section-header/SectionHeaderCenter'
 import './resume.css'
 import { FaBrain, FaGraduationCap } from 'react-icons/fa'
 
 const Resume = ({ title, subtitle, note }) => {
     return (
         <section id="resume" className="resume-section bg-gradient-close">
-            <SectionHeader title={title} subtitle={subtitle} note={note} />
+            <SectionHeaderCenter title={title} subtitle={subtitle} note={note} />
 
             <h3 className="container-title">work experience <FaBrain className="icon" /></h3>
             <div className="resume-container">
@@ -13,8 +13,8 @@ const Resume = ({ title, subtitle, note }) => {
 
                 <div className="resume-item">
                     <div className="item-header">
-                        <h3 className="item-title">Junior Developer & Designer</h3>
-                        <p className="item-date">December 2022 - September 2023 </p>
+                        <h3 className="item-title">Web Developer & Designer</h3>
+                        <p className="item-date">December 2022 - Till Date </p>
                     </div>
                     <div className="item-content">
                         <h3 className="item-title">Dawih Solutions (Remote)</h3>
@@ -26,6 +26,24 @@ const Resume = ({ title, subtitle, note }) => {
                         <p className="item-text">
                             I Provide professional web designs and solutions as well as
                             provided support and maintance for wordpress solutions.
+                        </p>
+                    </div>
+                </div>
+                <div className="resume-item">
+                    <div className="item-header">
+                        <h3 className="item-title">Web Developer & Designer</h3>
+                        <p className="item-date">June 2018 - Till Date </p>
+                    </div>
+                    <div className="item-content">
+                        <h3 className="item-title">Upwork freelance (Remote)</h3>
+                        <p className="item-text">
+                            Creating responsive, user-friendly, and visually appealing websites that captivate audiences. 
+                            With expertise in: UI/UX design, Responsive web design, WordPress customization, 
+                            Graphic design, Web development (HTML, CSS, JavaScript). 
+
+                        </p>
+                        <p className="item-text">
+                        I deliver high-quality designs that meet client specifications and exceed expectations.
                         </p>
                     </div>
                 </div>
@@ -133,9 +151,9 @@ const Resume = ({ title, subtitle, note }) => {
 }
 
 Resume.defaultProps = {
-    title: 'resume',
-    subtitle: 'More of my Credentials.',
-    note: 'A quick look at my education and work experience.',
+    title: 'résumé',
+    subtitle: 'A Snapshot of My Journey',
+    note: 'Take a quick look at my educational background and professional experience—each step shaping the developer and designer I am today.',
 
 }
 

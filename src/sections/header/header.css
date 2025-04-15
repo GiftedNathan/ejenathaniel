@@ -4,8 +4,7 @@
     /* flex-wrap: wrap;  */
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 1em 4em;
+    padding: 1em 11em;
     color: white;
     position: relative;
 }
@@ -16,7 +15,7 @@
     color: var(--color-text-primary);
 }
 .site-logo{
-    width: 10em;
+    width: 8em;
 }
 
 .menu-icon{
@@ -63,7 +62,7 @@
 }
 .menu .nav-link{
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: 1px;
     text-transform: capitalize;
     text-align: center;
@@ -79,6 +78,9 @@
 
 
 @media screen and (max-width: 928px) {
+    .header{
+        padding: 1em 6em;
+    }
     .menu-icon{
         display: block;
     }
@@ -93,11 +95,14 @@
     .header{
         padding: 1em 2em;
     }
+    .menu .nav-link{
+        font-size: .9em;
+    }
     
 }
 @media screen and (max-width: 450px) {
     .header{
-        padding: 1em 2em;
+        padding: 1em 1.5em;
     }
     .site-logo{
         width: 5em;

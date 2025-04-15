@@ -8,15 +8,22 @@ import isoxImage from '../../assets/images/isox.png';
 import emcaImage from '../../assets/images/emca.png';
 import magnumopusImage from '../../assets/images/magnumopus.png';
 import baynetfuseImage from '../../assets/images/baynetfuse.png';
-import onomeImage from '../../assets/images/onome.png';
-import edublokImage from '../../assets/images/Edublok.png';
 import dbmnImage from '../../assets/images/dbmn.jpg';
 import praiseImage from '../../assets/images/praise.png';
 import zionbarsImage from '../../assets/images/zionbars.jpg';
 import brandleepImage from '../../assets/images/brandleep.jpg';
 import zecnetImage from '../../assets/images/zecnet.jpg';
 import helpinghandsImage from '../../assets/images/helpinghands.jpg';
-import koinwaImage from '../../assets/images/koinwa.jpg';
+import blackTribeImage from '../../assets/images/black-tribe.jpg';
+import phdImage from '../../assets/images/phd.jpg';
+import colonyImage from '../../assets/images/colony.jpg';
+import aearaImage from '../../assets/images/aeara.jpg';
+import mauriceImage from '../../assets/images/maurice.jpg';
+import powerof100Image from '../../assets/images/powerof100.jpg';
+import fbecImage from '../../assets/images/fbec-cefn.jpg';
+import summifyImage from '../../assets/images/summify.jpg';
+import fbnetImage from '../../assets/images/fbnet.jpg';
+import lashImage from '../../assets/images/lash.jpg';
 
 import animatedIconsImage from '../../assets/images/animated-icons.png';
 import easyRecipeImage from '../../assets/images/easyrecipe.png';
@@ -29,8 +36,50 @@ const Projects = ({ title, subtitle, note }) => {
         <div id="portfolio" className="projects-section">
 
             {/* WordPress projects  */}
-            <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Okay, let's have a look at some of the websites I've recently built with WordPress.`} />
+            <SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={note} />
             <div className="project-container">
+                <div className="project">
+                    <img src={fbecImage} className="project-image" alt="Federal Black Employee Consensus banner" />
+                    <a href='https://www.fbec-cefn.ca/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={powerof100Image} className="project-image" alt="Power of 100 African Women banner" />
+                    <a href='https://powerof100.thewcommunity.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={mauriceImage} className="project-image" alt="Maurice Alexandra banner" />
+                    <a href='https://mauricexandra.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={aearaImage} className="project-image" alt="AEARA banner" />
+                    <a href='https://www.aeara.org/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={colonyImage} className="project-image" alt="The colony Enclave banner" />
+                    <a href='https://colonyenclave.net/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={phdImage} className="project-image" alt="PHD Consult academy banner" />
+                    <a href='https://www.phd-consults.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={blackTribeImage} className="project-image" alt="black tribe banner" />
+                    <a href='https://www.blacktribemedia.com/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
                 <div className="project">
                     <img src={helpinghandsImage} className="project-image" alt="helpinghands consultancy banner" />
                     <a href='https://helpinghandsconsultancyafrica.com/' target='_blank' rel="noreferrer">
@@ -68,20 +117,8 @@ const Projects = ({ title, subtitle, note }) => {
                     </a>
                 </div>
                 <div className="project">
-                    <img src={koinwaImage} className="project-image" alt="koinwa image" />
-                    <a href='https://edublok.koinwa.com/koinwa/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
                     <img src={magnumopusImage} className="project-image" alt="student tax help" />
                     <a href='https://magnumopus.com.ng/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
-                    <img src={onomeImage} className="project-image" alt="student tax help" />
-                    <a href='https://onomefoodmarket.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
@@ -116,8 +153,14 @@ const Projects = ({ title, subtitle, note }) => {
                     </a>
                 </div>
                 <div className="project">
-                    <img src={edublokImage} className="project-image" alt="edublok" />
-                    <a href='https://edublok.koinwa.com/' target='_blank' rel="noreferrer">
+                    <img src={fbnetImage} className="project-image" alt="FARMLINE BUSINESS NETWORK" />
+                    <a href='https://fbnet.com.ng/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+                <div className="project">
+                    <img src={lashImage} className="project-image" alt="Las Revive" />
+                    <a href='https://lashrevive.ng/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
@@ -128,6 +171,17 @@ const Projects = ({ title, subtitle, note }) => {
             <h3 className='category-title'>ReactJs and Javascript projects</h3>
             <div className="project-container">
 
+                <div className="project">
+                    <img src={summifyImage} className="project-image" alt="Summify" />
+                    <p className="project-text">
+                        A free and open-source article summarizer 
+                        that converts extensive articles into 
+                        easily digestible summaries.
+                    </p>
+                    <a href='https://summiffy.netlify.app/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
                 <div className="project">
                     <img src={easyRecipeImage} className="project-image" alt="easy recipe" />
                     <p className="project-text">
@@ -190,8 +244,8 @@ const Projects = ({ title, subtitle, note }) => {
 
 Projects.defaultProps = {
     title: 'projects',
-    subtitle: 'Check Out Some Of My Works',
-    note: 'A series of projects ranging from web devlopment and design to graphics design',
+    subtitle: 'A Glimpse Into My Recent Work',
+    note: 'Explore a curated selection of websites I’ve crafted using WordPress — each one tailored to meet unique goals with clean design and smart functionality.',
 }
 
 export default Projects

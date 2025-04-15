@@ -47,6 +47,7 @@
 }
 .category-title {
   font-size: 1.5em;
+  font-weight: 300;
   line-height: 1.8em;
   text-transform: capitalize;
   color: white;
@@ -65,7 +66,8 @@
 .project-text {
   font-size: 1em;
   line-height: 1.8em;
-  text-align: left;
+  text-align: center;
+  color: var(--color-text-gray);
   margin-top: 10px;
 }
 .project-technology {
@@ -84,7 +86,7 @@
 
 @media screen and (max-width: 768px) {
   .projects-section {
-    padding: 100px 0px;
+    padding: 40px 0px;
   }
 
   .project-container {
@@ -93,8 +95,16 @@
     row-gap: 20px;
   }
   .project-title {
-    font-size: 1.4em;
-    line-height: 1.9em;
+    font-size: 1.2em;
+    line-height: 1.6em;
+  }
+  .category-title {
+    font-size: 1.2em;
+    line-height: 1.6em;
+  }
+  .project-text {
+    font-size: .9em;
+    line-height: 1.6em;
   }
 }
 @media screen and (max-width: 425px) {

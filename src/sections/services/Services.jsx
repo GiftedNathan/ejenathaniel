@@ -1,60 +1,56 @@
-import { SectionHeader } from '../../components/section-header/SectionHeader'
+import { SectionHeaderCenter } from '../../components/section-header/SectionHeaderCenter'
 import './services.css'
 // import {FaCode} from 'react-icons/fa'
 
 const Services = ({ title, subtitle, note }) => {
     return (
         <div id="services" className="services-section bg-gradient-open">
-            <SectionHeader title={title} subtitle={subtitle} note={note} />
+            <SectionHeaderCenter title={title} subtitle={subtitle} note={note} />
             <div className="services-container">
                 <div className="service">
                     {/* <FaCode className="service-icon"/> */}
                     <i className="fa fa-code service-icon" aria-hidden="true"></i>
-                    <h3 className="service-name">code</h3>
+                    <h3 className="service-name">Custom Development</h3>
                     <p className="service-text">
-                        Your computer program written from
-                        scratch, beginning to end in no distant time
+                        From concept to launch, I build powerful applications from scratch—quickly, cleanly, and with your goals in mind.
                     </p>
                 </div>
                 <div className="service">
                     <i className="fas fa-chalkboard-teacher service-icon" aria-hidden="true"></i>
-                    <h3 className="service-name">tutorials</h3>
+                    <h3 className="service-name">Tutorials & Training</h3>
                     <p className="service-text">
-                        You can acquire the necessary skills at no cost,
-                        imparting them is indeed a hubby
+                        Passionate about sharing knowledge, I offer free tutorials to help others gain real-world skills. 
+                        Teaching is more than a job—it’s a joy.
                     </p>
                 </div>
                 <div className="service">
                     <i className="fas fa-building service-icon" aria-hidden="true"></i>
                     <h3 className="service-name">design</h3>
                     <p className="service-text">
-                        A plan for the structure and functions of your system,
-                        giving it shape and appearance
+                        I craft thoughtful layouts and interfaces that bring clarity, structure, and style to your systems.
                     </p>
                 </div>
                 <div className="service">
                     <i className="fas fa-hands-helping service-icon" aria-hidden="true"></i>
-                    <h3 className="service-name">support</h3>
+                    <h3 className="service-name">Maintenance & Support</h3>
                     <p className="service-text">
-                        Your Application or System don't have to fall or fail. Analytics, Reports and
-                        Recommendations to further improve performance
+                        Keep your apps and systems running smoothly. I provide performance insights, detailed reports, and actionable recommendations.
                     </p>
                 </div>
                 <div className="service">
                     <i className="fas fa-file-archive service-icon" aria-hidden="true"></i>
-                    <h3 className="service-name">analysis</h3>
+                    <h3 className="service-name">Problem Analysis</h3>
                     <p className="service-text">
-                        Decomposition of your problem into components,
-                        study its complexity, concept and the theory behind it.
+                        I break down complex challenges into manageable components—studying functionality, 
+                        structure, and theoretical underpinnings to offer the best solution.
                     </p>
                 </div>
                 <div className="service">
                     <i className="fas fa-dollar-sign service-icon" aria-hidden="true"></i>
-                    <h3 className="service-name">market</h3>
+                    <h3 className="service-name">Product Launch & Marketing</h3>
                     <p className="service-text">
-                        The smallest of your ideas and solutions can really
-                        be millions if only it gets into the right place.
-                        let it be sold for you
+                        Even the smallest idea has the potential to grow. I help position and promote your solutions 
+                        to the right audience for maximum impact.
                     </p>
                 </div>
             </div>
@@ -64,8 +60,8 @@ const Services = ({ title, subtitle, note }) => {
 
 Services.defaultProps = {
     title: 'sevices',
-    subtitle: ' What Can I Do For You?',
-    note: 'A cross section of the list of all the services i can provide.',
+    subtitle: 'How I Can Help You Succeed',
+    note: 'Here is a snapshot of the value I bring—tailored solutions to transform your ideas into impactful digital experiences.',
 }
 
 export default Services

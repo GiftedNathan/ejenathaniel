@@ -34,7 +34,7 @@ const About = ({ title, subtitle, note, profile, skills }) => {
     };
 
     return (
-        <section className="about-section " id="about">
+        <section className="about-section bg-gradient-close" id="about">
 
             {/* <SectionHeader title={title} subtitle={subtitle} note={note} profileImage={profileImage} /> */}
             <SectionHeader title={title} subtitle={subtitle} note={note} />
@@ -101,10 +101,11 @@ const About = ({ title, subtitle, note, profile, skills }) => {
 }
 
 About.defaultProps = {
-    title: 'about',
-    subtitle: 'Let me introduce myself',
-    note: 'I am a web developer passionate about web design, development, and interaction. I have good experience building scalable, responsive, and high-quality applications, and I can collaborate even from a remote location. I am an organized and trustworthy employee seeking a new position where I can use my skills while also learning and improving my experience.',
-    profile: 'A computer science graduate with strong and various backgrounds in software development, programming, computer architecture, operating systems, and data structures, as well as high honors in undergraduate studies and good communication and time management skill sets.',
+    title: 'about me',
+    subtitle: 'Creative Developer. Passionate Designer. Reliable Collaborator.',
+    // note: 'I am a web developer passionate about web design, development, and interaction. I have good experience building scalable, responsive, and high-quality applications, and I can collaborate even from a remote location. I am an organized and trustworthy employee seeking a new position where I can use my skills while also learning and improving my experience.',
+    note: 'Hi! I am a web developer with a passion for crafting visually engaging and highly functional websites. With hands-on experience building scalable, responsive, and high-quality applications, I thrive in both independent and remote team settings. I am known for being organized, dependable, and eager to grow—always ready to take on new challenges while continuously improving my craft.',
+    profile: 'A Computer Science graduate with a solid foundation in software development, programming, computer architecture, operating systems, and data structures. I bring not only academic excellence but also strong communication, time management, and problem-solving skills—ready to contribute effectively in dynamic and fast-paced environments.',
     skills: 'JavaScript, PHP, SCSS, WordPress, ReactJs, React Native, Bootstrap, CodeIgniter, and Laravel are all skills I have.',
 
 }
