@@ -42,7 +42,7 @@ const Footer = () => {
 
             <p className="copy-right">
                 &copy; Eje Nathaniel 2025
-                - Built with much love.
+                - Built with much 💞️ love.
             </p>
 
         </div>
